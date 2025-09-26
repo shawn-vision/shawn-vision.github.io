@@ -30,7 +30,7 @@ Email: shuolin.li@columbia.edu
 
 I lead the *Machine Learning for Data Assimilation* project at [LEAP](https://leap.columbia.edu/) — NSF’s Science and Technology Center focused on Learning the Earth with AI and Physics. At Columbia University, I am jointly mentored by Professors [Pierre Gentine](https://leap.columbia.edu/) and [Tian Zheng](https://leap.columbia.edu/)(Department of Statistics).
 
-My research bridges **physics-based modeling** and **machine learning** to advance understanding and prediction of geophysical systems. I focus on: i) Developing process-based mathematical and physical models; ii) Designing generative AI algorithms for wind–water–climate dynamics; and iii) Building science-aware ML applications for Earth and environmental systems  
+My research bridges **physics-based modeling** and **machine learning** to advance understanding how Earth’s surface and climate extremes evolve under intensifying human pressure. My research is at the interface of **(i) sediment geomorphology**, **(ii) turbulence and hydrodynamics**, and **(iii) generative machine learning**. 
 
 ---
 <div style="margin-top: 40px;"></div>
@@ -51,6 +51,7 @@ I completed a Master’s degree in Mechanical Engineering (minor in Climate Scie
 - **Convener**, AGU 2025: *Transport & Interactions in Aquatic Ecosystems Across Scales*
 - **Best Student Paper Award**, CVPR EarthVision: ML for Data Assimilation, 2024
 - **Associate Editor**, *Journal of Hydrology* (Q1, 2023–2027)
+- **Associate Editor**, *Journal of Geophysical Research: Machine Learning and Computation* (Q1, 2025–Present)
 - **Leadership Award**, Duke Engineering Ph.D. Plus Program, 2023
 - **Advisory Board Member**, Ph.D. Plus, Duke Engineering, 2022–2023
 - **Vice President**, Duke Chinese Students & Scholars Association, 2021–2022
