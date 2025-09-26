@@ -30,7 +30,7 @@ Email: shuolin.li@columbia.edu
 
 I lead the *Machine Learning for Data Assimilation* project at [LEAP](https://leap.columbia.edu/) — NSF’s Science and Technology Center focused on Learning the Earth with AI and Physics. At Columbia University, I am jointly mentored by Professors [Pierre Gentine](https://leap.columbia.edu/) and [Tian Zheng](https://leap.columbia.edu/)(Department of Statistics).
 
-My research bridges **physics-based modeling** and **machine learning** to advance understanding how Earth’s surface and climate extremes evolve under intensifying human pressure. My research is at the interface of **(i) sediment geomorphology**, **(ii) turbulence and hydrodynamics**, and **(iii) generative machine learning**. 
+I develop **physics-grounded, uncertainty-quantified models** that fuse turbulence theory with generative machine learning to predict how Earth’s surface and climate extremes evolve under intensifying human pressure. Turbulence is the unifying driver—governing sediment transport, shaping river and coastal morphodynamics, and controlling boundary-layer processes that modulate heat-wave intensity and persistence. I seek to link small-scale turbulent energetics to basin-to-regional landscape evolution and risk, yielding tools that support nature-based solutions and real-time climate decision-making. My research is at the interface of **(i) sediment geomorphology**, **(ii) turbulence and hydrodynamics**, and **(iii) generative machine learning**. 
 
 ---
 <div style="margin-top: 40px;"></div>
