@@ -56,7 +56,6 @@ I completed a Master’s degree in Mechanical Engineering (minor in Climate Scie
 - **Advisory Board Member**, Ph.D. Plus, Duke Engineering, 2022–2023
 - **Vice President**, Duke Chinese Students & Scholars Association, 2021–2022
 - **Award for Outstanding Self-Funded Students Abroad**, China Ministry of Education, 2020
-- **Keynote Speaker**, First Global Competence Forum for Young Elites, Xi'an, China, 2019
 
 ---
 
