@@ -30,7 +30,7 @@ Email: shuolin.li@columbia.edu
 
 I lead the *Machine Learning for Data Assimilation* project at [LEAP](https://leap.columbia.edu/) — NSF’s Science and Technology Center focused on Learning the Earth with AI and Physics. At Columbia University, I am jointly mentored by Professors [Pierre Gentine](https://leap.columbia.edu/) and [Tian Zheng](https://leap.columbia.edu/)(Department of Statistics).
 
-I develop **physics-grounded, uncertainty-quantified models** that fuse turbulence theory with generative machine learning to predict how Earth’s surface and climate extremes evolve under intensifying human pressure. Turbulence is the unifying driver—governing sediment transport, shaping river and coastal morphodynamics, and controlling boundary-layer processes that modulate heat-wave intensity and persistence. I seek to link small-scale turbulent energetics to basin-to-regional landscape evolution and risk, yielding tools that support nature-based solutions and real-time climate decision-making. My research is at the interface of **(i) sediment geomorphology**, **(ii) turbulence and hydrodynamics**, and **(iii) generative machine learning**. 
+I develop **physics-grounded, uncertainty-quantified models** that fuse turbulence theory with generative machine learning to predict how Earth’s surface and climate extremes evolve under intensifying human pressure. Turbulence is the unifying driver—governing sediment transport, shaping river and coastal morphodynamics, and controlling boundary-layer processes that modulate heat-wave intensity and persistence. I seek to link small-scale turbulent energetics to basin-to-regional landscape evolution and risk, yielding tools that support nature-based solutions and real-time climate decision-making. My research is at the interface of  **(i) turbulence and hydrodynamics**, **(ii) sediment geomorphology**, and **(iii) generative machine learning**. 
 
 ---
 <div style="margin-top: 40px;"></div>
@@ -46,16 +46,14 @@ I completed a Master’s degree in Mechanical Engineering (minor in Climate Scie
 <div style="margin-top: 40px;"></div>
 
 
-## 🏅 Honors & Service
+## 🏅 Professional Service
 
 - **Convener**, AGU 2025: *Transport & Interactions in Aquatic Ecosystems Across Scales*
-- **Best Student Paper Award**, CVPR EarthVision: ML for Data Assimilation, 2024
 - **Associate Editor**, *Journal of Hydrology* (Q1, 2023–2027)
 - **Associate Editor**, *Journal of Geophysical Research: Machine Learning and Computation* (Q1, 2025–Present)
-- **Leadership Award**, Duke Engineering Ph.D. Plus Program, 2023
 - **Advisory Board Member**, Ph.D. Plus, Duke Engineering, 2022–2023
 - **Vice President**, Duke Chinese Students & Scholars Association, 2021–2022
-- **Award for Outstanding Self-Funded Students Abroad**, China Ministry of Education, 2020
+
 
 ---
 
