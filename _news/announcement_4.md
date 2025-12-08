@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2022–2023
+date: 2022–01-01
+period: 2023–2027
 inline: true
 related_posts: false
 ---
