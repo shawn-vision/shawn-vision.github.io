@@ -3,7 +3,6 @@ layout: page
 title: Probabilistic Climate Predictions
 img: assets/img/12.jpg
 importance: 1
-related_publications: true
 ---
 
 In machine learning weather assimilation, scientists use observations to adjust their models' trajectory and forecasts — like daily temperatures. This traditional method focuses on short-term accuracy. However, for **climate models**, it's essential to understand long-term dynamics and distributions, since we cannot replicate the exact future state of a single day.

@@ -154,6 +154,8 @@ collections:
     output: true
   ai4science:
     output: true
+  hydrodynamics:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

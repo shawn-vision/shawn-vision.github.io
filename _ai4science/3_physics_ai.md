@@ -3,7 +3,6 @@ layout: page
 title: Bridging Physics and Environment via AI
 img: assets/img/12.jpg
 importance: 3
-related_publications: true
 ---
 
 This work pioneers a **physics-informed ML framework** for modeling **suspended sediment transport** in vegetated flows. It enables data-driven closure of sediment dispersion fluxes, directly linking microscale turbulence to bulk sediment concentration in channel experiments.

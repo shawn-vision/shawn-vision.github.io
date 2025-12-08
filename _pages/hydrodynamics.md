@@ -1,21 +1,36 @@
 ---
 layout: page
-permalink: /hydrodynamics/
 title: hydrodynamics
-description: Hydrodynamics research exploring turbulence, sediment transport, and fluid mechanics from first principles.
+permalink: /hydrodynamics/
+description: Physical Explanation and Modeling of Wind and Water Dynamics
 nav: true
 nav_order: 4
+horizontal: false
 ---
 
-<!-- _pages/hydrodynamics.md -->
+<!-- pages/hydrodynamics.md -->
+<div class="projects">
 
-<!-- Bibsearch Feature -->
+<!-- Display projects without categories -->
 
-{% include bib_search.liquid %}
+{% assign sorted_projects = site.hydrodynamics | sort: "importance" %}
 
-<div class="publications">
+  <!-- Generate cards for each project -->
 
-{% bibliography -f hydrodynamics %}
+{% if page.horizontal %}
 
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
 </div>
-
