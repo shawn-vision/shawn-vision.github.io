@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Remote Sensing & Probabilistic Climate Projection
-img: assets/img/6.jpg
+img: assets/img/12.jpg
 importance: 2
-category: climate
 ---
 
 This research enhances climate forecasts by integrating **transport processes** into Earth System Models (ESMs). I utilize **indirect meteorological observations** — such as gas flux, vapor, and precipitation — via a **deep learning–based data assimilation framework** I designed.

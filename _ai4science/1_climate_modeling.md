@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Probabilistic Climate Predictions
-img: assets/img/6.jpg
+img: assets/img/12.jpg
 importance: 1
-category: climate
 related_publications: true
 ---
 
@@ -13,5 +12,5 @@ This work proposes a new strategy to improve **data assimilation targeting stati
 
 This approach enables better estimation of **extreme events** — like heatwaves or cold snaps — and analysis of their **joint quantile structures**.
 
-📄 *Read more:*  
+*Read more:*  
 *Li, S.*, Zheng, T., Farchi, A., Bocquet, M., & Gentine, P. (2025). *Projections with generative machine learning: a Lorenz ’96 proof-of-concept.* *Geophysical Research Letters*, 52(12), e2024GL112523.

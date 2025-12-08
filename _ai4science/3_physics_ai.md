@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Bridging Physics and Environment via AI
-img: assets/img/6.jpg
+img: assets/img/12.jpg
 importance: 3
-category: environment
 related_publications: true
 ---
 
