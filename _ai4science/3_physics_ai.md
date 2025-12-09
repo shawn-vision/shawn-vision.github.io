@@ -41,6 +41,6 @@ Together, these examples demonstrate the broader ambition of this research progr
 **2.** Li, S. (2025).  
 **Integrated turbulence and machine learning models explain pier scour in erodible channels.**  
 *Water Resources Research*, 61(9), e2024WR039088.  
-🔗 *(add DOI or URL when available)*
+🔗[Read the paper](https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR039088)
 
 ---
