@@ -9,8 +9,8 @@ profile:
   image: shawn.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Columbia University</p>
-    <p>New York, NY</p>
+    <p>Data Science Institute, Columbia University</p>
+    <p>New York, NY, 10027, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
