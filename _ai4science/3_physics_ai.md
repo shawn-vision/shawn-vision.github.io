@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Numerical Surrogate Model with Machine Learning
-img: assets/img/12.jpg
+img: assets/img/mlm.png
 importance: 3
 ---
 
-<img src="/assets/img/12.jpg" alt="Numerical Surrogate Model with ML" style="max-width: 30%; display:block; margin:auto; padding: 20px 0;" />
+<img src="/assets/img/mlm.png" alt="Numerical Surrogate Model with ML" style="max-width: 30%; display:block; margin:auto; padding: 20px 0;" />
 
 This project aims to build a **generalizable, turbulence-aware surrogate modeling framework** that combines **machine learning with physical constraints** to predict geomorphic transport processes in rivers and coastal systems. The overarching goal is to move beyond empirical formulas and instead develop **first-principles-guided ML models** that learn how microscale turbulent structures drive landscape-scale sediment response.
 
