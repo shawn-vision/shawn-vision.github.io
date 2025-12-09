@@ -20,7 +20,7 @@ This methodology supports:
 ### 📄 Representative Publication 
 
 **1.** **Li, S**., Zheng, T., Farchi, A., Bocquet, M., & Gentine, P. (2025).  
-**Projections with generative machine learning: a Lorenz ’96 proof-of-concept.**  
+**Probabilistic data assimilation for ensemble distribution projections with generative machine learning: A Lorenz’96 proof‐of‐concept**  
 *Geophysical Research Letters*, 52(12), e2024GL112523.  
 🔗 [Read the paper](https://doi.org/10.1029/2024GL112523)
 
