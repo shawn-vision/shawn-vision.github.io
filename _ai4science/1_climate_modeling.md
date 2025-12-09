@@ -5,6 +5,8 @@ img: assets/img/12.jpg
 importance: 1
 ---
 
+<img src="/assets/img/12.jpg" alt="Probabilistic Data Assimilation" style="max-width: 80%; display:block; margin:auto; padding: 20px 0;" />
+
 Traditional data assimilation in weather and climate science focuses on improving **short-term state estimation** — for example, updating a model's trajectory using daily temperature observations. While effective for forecasting, this approach does not directly address a deeper challenge in **climate modeling**: we are rarely interested in the exact state of one day far into the future. Instead, we aim to understand how **probability distributions evolve** — especially the tails that govern extreme events.
 
 Our work introduces a new **distribution-aware data assimilation framework**, shifting emphasis from pointwise corrections to **learning and updating full statistical distributions** of climate variables. Built upon a **Bayesian generative-modeling formulation**, it enables uncertainty-aware **parameter inference**, improved projection stability, and better characterization of **extreme-event behavior**.
