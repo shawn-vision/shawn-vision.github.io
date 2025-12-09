@@ -5,7 +5,7 @@ img: assets/img/climate-da.png
 importance: 1
 ---
 
-<img src="/assets/img/climate-da.png" alt="Probabilistic Data Assimilation" style="max-width: 50%; display:block; margin:auto; padding: 20px 0;" />
+<img src="/assets/img/climate-da.png" alt="Probabilistic Data Assimilation" style="max-width: 30%; display:block; margin:auto; padding: 20px 0;" />
 
 Traditional data assimilation in weather and climate science focuses on improving **short-term state estimation** — for example, updating a model's trajectory using daily temperature observations. While effective for forecasting, this approach does not directly address a deeper challenge in **climate modeling**: we are rarely interested in the exact state of one day far into the future. Instead, we aim to understand how **probability distributions evolve** — especially the tails that govern extreme events.
 
@@ -17,7 +17,7 @@ This methodology supports:
 - Quantile-based risk analysis and rare-event statistics  
 - More reliable projections under limited or noisy observations  
 
-### 📄 Read More  
+### 📄 Representative Publication 
 
 **1.** **Li, S**., Zheng, T., Farchi, A., Bocquet, M., & Gentine, P. (2025).  
 **Projections with generative machine learning: a Lorenz ’96 proof-of-concept.**  
