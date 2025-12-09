@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-08-01
+date: 2025-12
 inline: true
 related_posts: false
 ---
 
-Convener: Transport & Interactions in Aquatic Ecosystems Across Scales
+AGU Meeting Convener: Transport & Interactions in Aquatic Ecosystems Across Scales
