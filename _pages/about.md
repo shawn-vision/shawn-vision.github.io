@@ -4,6 +4,7 @@ title: About
 permalink: /
 subtitle:
 
+
 profile:
   align: right
   image: shawn.jpg
