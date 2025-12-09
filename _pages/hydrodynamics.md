@@ -1,6 +1,6 @@
 ---
 layout: page
-title: hydrodynamics
+title: Hydrodynamics
 permalink: /hydrodynamics/
 description: Physical Explanation and Modeling of Wind and Water Dynamics
 nav: true
