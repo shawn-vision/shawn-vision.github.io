@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ai4science
+title: Ai4Science
 permalink: /ai4science/
 description: Climate Modeling with Generative AI
 nav: true
