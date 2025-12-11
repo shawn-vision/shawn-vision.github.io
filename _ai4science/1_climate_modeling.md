@@ -145,7 +145,7 @@ distributions of climate variables.
 
 ---
 
-## 📄 Representative Publications
+### 📄 Representative Publications
 
 <ol style="padding-left: 1.2rem;">
 
