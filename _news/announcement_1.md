@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-AGU Meeting Convener: Transport & Interactions in Aquatic Ecosystems Across Scales
+I will serve as an AGU 2025 Annual Meeting Convener for the session **“Transport & Interactions in Aquatic Ecosystems Across Scales.”**

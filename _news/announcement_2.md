@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2023-01-01
+date: 2023-07-01
 period: 2023–2027
 inline: true
 related_posts: false
 ---
 
-Associate Editor, Journal of Hydrology
+I have been appointed as an **Associate Editor** for the *Journal of Hydrology*.
