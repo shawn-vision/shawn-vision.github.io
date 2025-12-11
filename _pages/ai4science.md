@@ -8,6 +8,7 @@ nav_order: 2
 horizontal: false
 ---
 
+
 <!-- Hero section with Columbia Blue theme -->
 <div style="
   background: linear-gradient(135deg, #E8F6FF 0%, #C9E8FF 100%);
