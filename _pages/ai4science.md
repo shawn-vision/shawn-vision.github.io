@@ -4,7 +4,7 @@ title: AI for Science
 permalink: /ai4science/
 description: Generative AI with applications to mechanical and Earth systems
 nav: true
-nav_order: 3
+nav_order: 2
 horizontal: false
 ---
 
@@ -159,14 +159,6 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 </div>
 
----
-
-## Example Questions We Ask
-
-- How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?  
-- Can <strong>symbolic ML</strong> recover interpretable transport and scaling laws from large simulation or experimental datasets?  
-- How do we combine <strong>data assimilation, generative models, and physical constraints</strong> to estimate unobserved states?  
-- What is the most efficient way to use AI to <strong>design and operate cooling strategies</strong> for large data clusters?  
 
 ---
 
@@ -193,3 +185,13 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 {% endif %}
 
 </div>
+
+
+---
+
+## Example Questions We Ask
+
+- How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?  
+- Can <strong>symbolic ML</strong> recover interpretable transport and scaling laws from large simulation or experimental datasets?  
+- How do we combine <strong>data assimilation, generative models, and physical constraints</strong> to estimate unobserved states?  
+- What is the most efficient way to use AI to <strong>design and operate cooling strategies</strong> for large data clusters?  
