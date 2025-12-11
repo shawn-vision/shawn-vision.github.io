@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Ai4Science
+title: AI for Science
 permalink: /ai4science/
-description: Climate Modeling with Generative AI
+description: Generative AI with applications to mechanical and Earth systems
 nav: true
 nav_order: 3
 horizontal: false
@@ -26,11 +26,11 @@ horizontal: false
     {% endfor %}
     </div>
   </div>
-  {% else %}
+{% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
+{% endif %}
 </div>
