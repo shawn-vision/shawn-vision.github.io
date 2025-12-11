@@ -165,14 +165,19 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 ## AI for Science Projects
 
+## AI for Science Projects
+
 <style>
 /* Shrink the project cards */
 .ai4s-project-box {
   padding: 12px !important;
   border-radius: 14px !important;
+  background: #E8F6FF !important;  /* Columbia Blue light */
+  border: 1px solid #9BDDFF55;
+  margin-bottom: 16px;
 }
 
-/* Make title smaller */
+/* Make project titles smaller & cleaner */
 .ai4s-project-title {
   font-size: 0.95rem !important;
   margin-bottom: 6px;
@@ -180,16 +185,23 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
   font-weight: 600;
 }
 
-/* Shrink text */
+/* Compact descriptive text */
 .ai4s-project-text {
   font-size: 0.88rem !important;
   line-height: 1.45 !important;
+  margin: 0 !important;
 }
 
-/* Shrink thumbnail */
+/* Compact thumbnails */
 .ai4s-project-thumb img {
   width: 70px !important;
   border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0,85,164,0.18);
+}
+
+/* Make layout spacing nice */
+.projects .row {
+  row-gap: 16px !important;
 }
 </style>
 
@@ -201,14 +213,22 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
       {% for project in sorted_projects %}
-        {% include projects_horizontal.liquid %}
+        <div class="col">
+          <div class="ai4s-project-box">
+            {% include projects_horizontal.liquid %}
+          </div>
+        </div>
       {% endfor %}
     </div>
   </div>
 {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+      <div class="col">
+        <div class="ai4s-project-box">
+          {% include projects.liquid %}
+        </div>
+      </div>
     {% endfor %}
   </div>
 {% endif %}
