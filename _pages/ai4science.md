@@ -163,7 +163,35 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 ---
 
-## 🔬 AI for Science Projects
+## AI for Science Projects
+
+<style>
+/* Shrink the project cards */
+.ai4s-project-box {
+  padding: 12px !important;
+  border-radius: 14px !important;
+}
+
+/* Make title smaller */
+.ai4s-project-title {
+  font-size: 0.95rem !important;
+  margin-bottom: 6px;
+  color: #0055A4;
+  font-weight: 600;
+}
+
+/* Shrink text */
+.ai4s-project-text {
+  font-size: 0.88rem !important;
+  line-height: 1.45 !important;
+}
+
+/* Shrink thumbnail */
+.ai4s-project-thumb img {
+  width: 70px !important;
+  border-radius: 8px;
+}
+</style>
 
 <div class="projects">
 
