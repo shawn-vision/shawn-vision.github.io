@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-ai4science",
-          title: "Ai4Science",
-          description: "Climate Modeling with Generative AI",
+        },{id: "nav-ai-for-science",
+          title: "AI for Science",
+          description: "Generative AI with applications to mechanical and Earth systems",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ai4science/";
