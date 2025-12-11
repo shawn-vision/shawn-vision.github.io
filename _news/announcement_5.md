@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I will served as **Vice President**, Duke Chinese Students & Scholars Association for the 2021-2022 term.
+I will served as a vice president of Duke Chinese Students & Scholars Association for the 2021-2022 term.

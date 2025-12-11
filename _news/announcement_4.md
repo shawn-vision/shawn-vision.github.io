@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I will serve as an **Advisory Board Member** for **Ph.D. Plus**, Duke Engineering, for the 2022–2023 term.
+I will serve as an advisory board member for Ph.D. Plus committee of Duke Engineering for the 2022–2023 term.
