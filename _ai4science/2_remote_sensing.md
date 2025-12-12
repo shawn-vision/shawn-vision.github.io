@@ -1,15 +1,108 @@
 ---
 layout: page
-title: Remote Sensing & Probabilistic Climate Projection
+title: Generative Physical System Emulation
 img: assets/img/12.jpg
-importance: 2
+importance: 3
 ---
 
-This research enhances climate forecasts by integrating **transport processes** into Earth System Models (ESMs). I utilize **indirect meteorological observations** — such as gas flux, vapor, and precipitation — via a **deep learning–based data assimilation framework** I designed.
+<div style="border-left:6px solid #1F4E79; background:linear-gradient(90deg, rgba(31,78,121,0.10), rgba(31,78,121,0.02)); padding:14px 16px; border-radius:12px; margin:18px 0;">
+  <div style="font-size:1.05rem; font-weight:700; color:#1F4E79; margin-bottom:6px;">
+    Generative AI for Physical System Emulation
+  </div>
+  <div style="color:#1b1f24;">
+    We develop <b>generative emulators of physical systems</b> that learn <b>minimal, closed representations</b>
+    of high-dimensional dynamics. Rather than approximating single trajectories or moments, our models
+    emulate the <b>state space, operators, and uncertainty structure</b> of complex systems—enabling fast,
+    physically consistent prediction, inference, and scenario exploration across scales.
+  </div>
+</div>
 
-Unlike traditional techniques bound by **linear/Gaussian assumptions**, my **multimodal framework** leverages **generative learning** to assimilate both **in-situ data** (e.g., CPC rain gauges) and **satellite remote sensing** (e.g., NOAA) under sparse, noisy conditions.
+## Research vision
 
-I further developed a **probabilistic data assimilation method** using **density-based modeling** for parameter inference and **Bayesian uncertainty quantification**, which is critical for **long-term projections** and for estimating the probability of major climate events like flooding and heat extremes.
+Many geophysical and engineered systems are governed by dynamics that evolve on a
+<b>low-dimensional manifold</b>, despite being observed in extremely high-dimensional spaces.
+A central scientific challenge is therefore not prediction alone, but
+<b>identifying the minimal set of variables, operators, and closures</b> required to faithfully
+represent system behavior.
 
-*Read more:*  
-Qu, Y., Juan, N., *Li, S.*, & Gentine, P. (2024). *Deep generative data assimilation in multimodal setting.* In *CVPR Conference on Computer Vision and Pattern Recognition*, pp. 449–459.
+Our research advances **generative physical system emulation** by learning models that:
+
+- **Recover minimal representations:** identifying effective state variables and reduced coordinates  
+- **Learn closed dynamics:** emulating unresolved processes through data-driven physical closures  
+- **Preserve system structure:** respecting conservation laws, balances, and symmetries  
+- **Scale across regimes:** remaining valid under non-stationarity, regime shifts, and extremes  
+
+Probability enters naturally—not as an add-on—but as a reflection of unresolved scales,
+structural uncertainty, and intrinsic variability in the governing dynamics.
+
+## From distributions to dynamics
+
+While extreme events and risk are a major application, the core objective is broader:
+to emulate the **full dynamical system**, not just its output statistics.
+
+Generative models allow us to move beyond mean-field or Gaussian assumptions and instead:
+
+- Represent the **geometry of the system’s attractor**
+- Capture **nonlinear responses and rare transitions**
+- Resolve **tail behavior** as an emergent property of dynamics
+- Attribute changes to physical drivers (forcing, boundary conditions, land–atmosphere coupling)
+
+In this framework, probability distributions are diagnostics of the learned system,
+not the system itself.
+
+## Methodological approach
+
+We combine **flow-based generative models**, **neural operators**, and **physics-informed constraints**
+to emulate evolution operators in reduced state spaces.
+
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:12px 0 4px;">
+  <div style="border:1px solid rgba(31,78,121,0.25); border-radius:14px; padding:14px;">
+    <div style="font-weight:800; color:#1F4E79; margin-bottom:8px;">Core models</div>
+    <ul style="margin:0; padding-left:18px;">
+      <li>Generative flows for state-space and operator learning</li>
+      <li>Neural operators for fast, resolution-invariant emulation</li>
+      <li>Latent-variable models for minimal dimensional representation</li>
+    </ul>
+  </div>
+  <div style="border:1px solid rgba(31,78,121,0.25); border-radius:14px; padding:14px;">
+    <div style="font-weight:800; color:#1F4E79; margin-bottom:8px;">Physical constraints</div>
+    <ul style="margin:0; padding-left:18px;">
+      <li>Conservation of energy, mass, and water</li>
+      <li>Physically motivated priors and invariances</li>
+      <li>Stability, consistency, and closure diagnostics</li>
+    </ul>
+  </div>
+</div>
+
+Model fidelity is assessed not only through forecast skill, but through
+<b>structural diagnostics</b>: reliability, closure error, attractor geometry,
+and robustness under extrapolation.
+
+## What we deliver (science → operations)
+
+Our goal is not black-box prediction, but **usable emulators of physical systems** that
+can transition into real workflows:
+
+- **Minimal-order system emulators** with quantified uncertainty  
+- **Validated physical closures** with confidence bounds  
+- **Transition-ready prototypes** co-developed with agency partners  
+- **Millisecond inference** enabling large ensemble and real-time applications  
+- **Open benchmarks and APIs** for reproducibility and community uptake  
+
+These emulators act as drop-in surrogates for expensive simulations while retaining
+physical interpretability.
+
+## Broader impacts
+
+- **Climate and hazards:** fast emulation of extremes, compound events, and regime shifts  
+- **Engineering and infrastructure:** uncertainty-aware stress testing and design  
+- **Insurance and reinsurance:** physically grounded event sets and exceedance curves  
+- **Public communication:** interpretable, uncertainty-aware system behavior rather than opaque forecasts  
+- **Open science:** reusable tools for reduced-order modeling and system discovery  
+
+<div style="margin:18px 0; padding:14px 16px; border-radius:14px; background:#1F4E79; color:white;">
+  <div style="font-size:1.05rem; font-weight:800; margin-bottom:6px;">Outcome</div>
+  A high-leverage platform for learning, emulating, and understanding complex physical systems—
+  advancing basic science, enabling operational deployment, and clarifying risk and dynamics
+  for decision makers and the public.
+</div>
