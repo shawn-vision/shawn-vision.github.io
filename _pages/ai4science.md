@@ -165,8 +165,6 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 ## AI for Science Projects
 
-## AI for Science Projects
-
 <style>
 /* Shrink the project cards */
 .ai4s-project-box {
