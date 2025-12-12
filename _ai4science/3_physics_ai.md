@@ -67,7 +67,7 @@ importance: 3
   </div>
 
   <div style="flex: 0 0 260px; text-align: center; min-width: 240px;">
-    <img src="/assets/img/generative-physical-system.png"
+    <img src="/assets/img/pem.png"
          alt="Generative Physical System Emulation"
          style="max-width: 240px; width: 100%; border-radius: 18px;
                 box-shadow: 0 16px 30px rgba(0,85,164,0.28);" />
