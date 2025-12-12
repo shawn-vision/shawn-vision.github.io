@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Ai4science",handler: () => {
               window.location.href = "/ai4science/1_climate_modeling/";
-            },},{id: "ai4science-remote-sensing-amp-probabilistic-climate-projection",
-          title: 'Remote Sensing &amp;amp; Probabilistic Climate Projection',
+            },},{id: "ai4science-generative-physical-system-emulation",
+          title: 'Generative Physical System Emulation',
           description: "",
           section: "Ai4science",handler: () => {
               window.location.href = "/ai4science/2_remote_sensing/";
