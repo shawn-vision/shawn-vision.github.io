@@ -2,7 +2,7 @@
 layout: page
 title: Numerical Surrogate Model with Machine Learning
 img: assets/img/mlm.png
-importance: 3
+importance: 2
 ---
 
 <!-- Hero section with Columbia Blue theme -->
