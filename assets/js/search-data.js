@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Ai4science",handler: () => {
               window.location.href = "/ai4science/1_climate_modeling/";
-            },},{id: "ai4science-generative-physical-system-emulation",
-          title: 'Generative Physical System Emulation',
+            },},{id: "ai4science-machine-learning-for-surrogate-model",
+          title: 'Machine Learning for Surrogate Model',
           description: "",
           section: "Ai4science",handler: () => {
               window.location.href = "/ai4science/2_remote_sensing/";
