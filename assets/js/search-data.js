@@ -397,24 +397,24 @@ ninja.data = [{
           title: 'Probabilistic Data Assimilation',
           description: "",
           section: "Ai4science",handler: () => {
-              window.location.href = "/ai4science/1_climate_modeling/";
+              window.location.href = "/ai4science/1_prob_da/";
             },},{id: "ai4science-machine-learning-for-surrogate-model",
           title: 'Machine Learning for Surrogate Model',
           description: "",
           section: "Ai4science",handler: () => {
-              window.location.href = "/ai4science/2_remote_sensing/";
+              window.location.href = "/ai4science/2_ML_surrogate/";
             },},{id: "ai4science-generative-physical-system-emulation",
           title: 'Generative Physical System Emulation',
           description: "",
           section: "Ai4science",handler: () => {
-              window.location.href = "/ai4science/3_physics_ai/";
+              window.location.href = "/ai4science/3_generative_AI/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "hydrodynamics-epidemiology-and-fluid-mechanics",
-          title: 'Epidemiology and Fluid Mechanics',
+            },},{id: "hydrodynamics-fluid-mechanics-and-epidemiology",
+          title: 'Fluid Mechanics and Epidemiology',
           description: "",
           section: "Hydrodynamics",handler: () => {
               window.location.href = "/hydrodynamics/1_epidemiology/";
@@ -433,8 +433,8 @@ ninja.data = [{
           description: "",
           section: "Hydrodynamics",handler: () => {
               window.location.href = "/hydrodynamics/4_sediments/";
-            },},{id: "hydrodynamics-sediment-carrying-capacity-from-turbulence-theory",
-          title: 'Sediment Carrying Capacity from Turbulence Theory',
+            },},{id: "hydrodynamics-turbulence-and-bulk-transport-laws",
+          title: 'Turbulence and Bulk Transport Laws',
           description: "",
           section: "Hydrodynamics",handler: () => {
               window.location.href = "/hydrodynamics/5_scour_capacity/";
