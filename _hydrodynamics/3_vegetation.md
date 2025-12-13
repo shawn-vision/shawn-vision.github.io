@@ -74,7 +74,7 @@ importance: 3
 ### Why vegetation changes turbulence
 
 Vegetation acts as <strong>boundary roughness with structure</strong>: it extracts momentum, reshapes turbulence,
-and reorganizes mixing pathways. These changes alter not only mean flow profiles, but also how sediments,
+and reorganizes mixing pathways. These changes alter not only mean velocity profiles, but also how sediments,
 nutrients, and contaminants are transported and removed.
 
 <div style="
@@ -89,7 +89,8 @@ A key challenge is predicting how <strong>microscale turbulence modifications</s
 translate into <strong>bulk flow structure</strong> and <strong>field-scale removal efficiency</strong>.
 </div>
 
-Our work develops analytical and numerical tools that connect these scales in a single, testable framework.
+Our work develops analytical and numerical tools that connect these scales within a single,
+physically interpretable framework.
 
 ---
 
@@ -118,7 +119,7 @@ Our work develops analytical and numerical tools that connect these scales in a 
     </div>
     <p style="margin:0; font-size:0.95rem; line-height:1.55;">
       Derived a <strong>universal velocity distribution equation</strong> using asymptotic analysis, linking
-      canopy properties and roughness to mean profiles and stresses.
+      canopy properties and roughness to mean profiles and shear stresses.
     </p>
   </div>
 
@@ -138,8 +139,8 @@ Our work develops analytical and numerical tools that connect these scales in a 
 
 ### From microscale physics to field-scale performance
 
-We show how vegetation-induced turbulence changes control contaminant residence time, contact frequency,
-and effective uptake—providing a mechanistic explanation for field-scale efficiency.
+Vegetation-induced turbulence modifies residence times, mixing pathways, and contact frequencies,
+providing a mechanistic explanation for observed differences in contaminant and nutrient removal.
 
 <div style="
   background: #F1FAFF;
@@ -149,18 +150,19 @@ and effective uptake—providing a mechanistic explanation for field-scale effic
   margin: 18px 0;
   color:#0F172A;
 ">
-The result is a scalable, physics-based link between <strong>flow structure</strong>, <strong>mixing pathways</strong>,
-and <strong>contaminant removal efficiency</strong>, validated against empirical data.
+The result is a scalable, physics-based link between <strong>flow structure</strong>,
+<strong>turbulent mixing</strong>, and <strong>field-scale removal efficiency</strong>,
+validated against empirical data.
 </div>
 
 ---
 
 ### What this framework enables
 
-- **Predictive modeling of vegetated flow profiles and stresses**  
+- **Predictive modeling of vegetated flow profiles and shear stresses**  
 - **Mechanistic estimates of mixing and transport in canopy flows**  
-- **Physics-based design of floating treatment wetlands** for improved removal efficiency  
-- **Cross-scale linkage** from canopy turbulence to field-scale contaminant outcomes  
+- **Physics-based design of floating treatment wetlands**  
+- **Cross-scale linkage** from canopy turbulence to ecosystem-scale performance  
 
 ---
 
@@ -169,17 +171,21 @@ and <strong>contaminant removal efficiency</strong>, validated against empirical
 <ol style="padding-left: 1.2rem;">
 
   <li style="margin-bottom: 14px;">
+    <strong>Li, S.</strong>, & Katul, G.  
+    <strong>Contaminant removal efficiency of floating treatment wetlands.</strong>  
+    <em>Environmental Research Letters</em>, 15(10), 1040b7.
+  </li>
+
+  <li style="margin-bottom: 14px;">
     <strong>Li, S.</strong>, Katul, G., & Huai, W.  
     <strong>Mean velocity and shear stress distribution in floating treatment wetlands: An analytical study.</strong>  
     <em>Water Resources Research</em>.
   </li>
 
   <li style="margin-bottom: 14px;">
-    <strong>Li, S.</strong>, & Katul, G. (2019).  
-    <strong>Contaminant removal efficiency of floating treatment wetlands.</strong>  
-    <em>Environmental Research Letters</em>, 15(10), 1040b7.
+    Tang, Z., Wang, W. J., Yuan, S., <strong>Li, S.</strong>, & Xin, P.  
+    <strong>A turbulence model for velocity distribution in open-channel flows through mangrove trees.</strong>  
+    <em>Water Resources Research</em>, 61(8), e2024WR039599.
   </li>
 
 </ol>
-
----

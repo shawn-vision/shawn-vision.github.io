@@ -40,7 +40,7 @@ horizontal: false
       line-height: 1.2;
       color: #0F172A;
     ">
-      Hydrodynamics: Wind–Water–Sediment Dynamics
+     Wind–Water–Sediment Dynamics
     </h1>
 
     <p style="margin: 0 0 12px 0; font-size: 1rem; line-height: 1.65;">

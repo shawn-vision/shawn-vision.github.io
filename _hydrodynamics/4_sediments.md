@@ -164,10 +164,10 @@ in vegetated and rough-bed flows.
 
 Key contributions include:
 
-- Development of an **asymmetric eddy diffusivity model** for vegetated channels  
-- Derivation of a **universal velocity distribution** using asymptotic analysis  
-- Numerical **reactive transport modeling** of contaminant uptake by vegetation  
-- Quantification of **floating treatment wetland efficiency**, validated against field data  
+- Development of an <strong>asymmetric eddy diffusivity model</strong> for vegetated channels  
+- Derivation of a <strong>universal velocity distribution</strong> using asymptotic analysis  
+- Numerical <strong>reactive transport modeling</strong> of contaminant uptake by vegetation  
+- Quantification of <strong>floating treatment wetland efficiency</strong>, validated against field data  
 
 ---
 
@@ -185,21 +185,21 @@ Key contributions include:
 <ol style="padding-left: 1.2rem;">
 
   <li style="margin-bottom: 14px;">
+    <strong>Li, S.</strong>, Bragg, A. D., & Katul, G.  
+    <strong>Reduced sediment settling in turbulent flows due to Basset history and virtual mass effects.</strong>  
+    <em>Geophysical Research Letters</em>, 50(22), e2023GL105810.
+  </li>
+
+  <li style="margin-bottom: 14px;">
+    <strong>Li, S.</strong>, Bragg, A. D., & Katul, G.  
+    <strong>A co-spectral budget model links turbulent eddies to suspended sediment concentration in channel flows.</strong>  
+    <em>Water Resources Research</em>, 58(3), e2021WR031045.
+  </li>
+
+  <li style="margin-bottom: 14px;">
     <strong>Li, S.</strong>, & Katul, G.  
-    <strong>Contaminant removal efficiency of floating treatment wetlands.</strong>  
-    <em>Environmental Research Letters</em>, 15(10), 1040b7.
-  </li>
-
-  <li style="margin-bottom: 14px;">
-    <strong>Li, S.</strong>, Katul, G., & Huai, W.  
-    <strong>Mean velocity and shear stress distribution in floating treatment wetlands: An analytical study.</strong>  
-    <em>Water Resources Research</em>.
-  </li>
-
-  <li style="margin-bottom: 14px;">
-    Tang, Z., Wang, W. J., Yuan, S., <strong>Li, S.</strong>, & Xin, P.  
-    <strong>A turbulence model for velocity distribution in open-channel flows through mangrove trees.</strong>  
-    <em>Water Resources Research</em>, 61(8), e2024WR039599.
+    <strong>Cospectral budget model describes incipient sediment motion in turbulent flows.</strong>  
+    <em>Physical Review Fluids</em>.
   </li>
 
 </ol>
