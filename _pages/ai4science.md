@@ -81,7 +81,7 @@ horizontal: false
   </div>
 
   <div style="flex:0 0 260px; text-align:center; min-width:240px;">
-    <img src="/assets/img/climate-da.png"
+    <img src="/assets/img/pem.png"
          alt="AI for Science"
          style="
            max-width: 240px;
