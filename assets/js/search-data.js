@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-hydrodynamics",
           title: "Hydrodynamics",
-          description: "Physical Explanation and Modeling of Wind and Water Dynamics",
+          description: "Physical Explanation and Modeling of Wind, Water and Sediment Dynamics",
           section: "Navigation",
           handler: () => {
             window.location.href = "/hydrodynamics/";
