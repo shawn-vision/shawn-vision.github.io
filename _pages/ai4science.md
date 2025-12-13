@@ -41,7 +41,7 @@ horizontal: false
       line-height: 1.2;
       color: #0F172A;
     ">
-      AI for Science: Generative Models for Physical Systems
+      Generative Models for Physical Systems
     </h1>
 
     <p style="margin: 0 0 12px 0; font-size: 1rem; line-height: 1.65;">
