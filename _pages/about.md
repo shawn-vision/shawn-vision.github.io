@@ -63,20 +63,37 @@ latest_posts:
   text-decoration: underline;
 }
 
-/* Optional: make block spacing cleaner on the landing page */
-.about-page .about-lead {
-  margin-top: 6px;
-  margin-bottom: 14px;
-}
-
-/* Optional: subtle callout card (matches your Columbia-blue theme) */
+/* Subtle callout card (Columbia-blue theme) */
 .about-page .about-card {
-  background: linear-gradient(135deg, rgba(232,246,255,0.92) 0%, rgba(243,251,255,0.92) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(232,246,255,0.92) 0%,
+    rgba(243,251,255,0.92) 100%
+  );
   border-radius: 16px;
   padding: 16px 18px;
   border: 1px solid rgba(155,221,255,0.45);
   box-shadow: 0 10px 22px rgba(0,85,164,0.08);
   margin: 16px 0 18px 0;
+}
+
+/* Small section label style (optional, matches your other pages) */
+.about-page .section-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0055A4;
+  font-weight: 600;
+  margin: 10px 0 6px 0;
+}
+
+/* Tighten list spacing */
+.about-page ul {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.about-page li {
+  margin: 4px 0;
 }
 </style>
 
@@ -95,24 +112,27 @@ latest_posts:
   My research sits at the intersection of:
 </p>
 
-<ul style="margin-top: 0;">
-  <li> turbulence and hydrodynamics</li>
-  <li> heat transfer and data-center cooling</li>
-  <li> sediment transport and geomorphology</li>
-  <li> generative machine learning for probability distributions</li>
+<ul>
+  <li><strong>Turbulence and hydrodynamics</strong></li>
+  <li><strong>Heat transfer and data-center cooling</strong></li>
+  <li><strong>Sediment transport and geomorphology</strong></li>
+  <li><strong>Generative machine learning for probability distributions</strong></li>
 </ul>
 
 <div class="about-card">
-  <p class="about-lead" style="margin:0;">
-    I am a research scientist in the <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
+  <div class="section-label">Position adn Training</div>
+  <p style="margin:0;">
+      I am a research scientist in the
+    <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
     at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
     <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
-    <em>Learning the Earth with AI and Physics</em>.  Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science from Duke University.
-  Earlier in my academic career, I graduated in Mechanical Engineering from Cornell University and Environmental Engineering
-  from Northwestern University.
+    <em>Learning the Earth with AI and Physics</em>. Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science
+    from Duke University. Earlier, I completed graduate training in Mechanical Engineering from Cornell University 
+    and Environmental Engineering from Northwestern University.
   </p>
 </div>
 
-
-
 </div>
+
+
+ 
