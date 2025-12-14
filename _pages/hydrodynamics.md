@@ -15,17 +15,24 @@ horizontal: false
   color: #0F172A;
 }
 
-.hydrodynamics-page h1,
-.hydrodynamics-page h2,
-.hydrodynamics-page h3 {
-  font-weight: 650;
+/* ===== Section titles (big-font, non-bold) ===== */
+.hydrodynamics-page .section-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 32px 0 14px 0;
+  color: #0F172A;
 }
 
-.hydrodynamics-page h2 {
-  margin-top: 36px;
-  margin-bottom: 14px;
+.hydrodynamics-page .section-title-sm {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 28px 0 12px 0;
+  color: #0F172A;
 }
 
+/* Label style */
 .hydrodynamics-page .section-label {
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -35,6 +42,7 @@ horizontal: false
   margin-bottom: 8px;
 }
 
+/* Card titles */
 .hydrodynamics-page .card-title {
   font-size: 1.02rem;
   font-weight: 600;
@@ -42,6 +50,7 @@ horizontal: false
   color: #0055A4;
 }
 
+/* Body text */
 .hydrodynamics-page p,
 .hydrodynamics-page li {
   font-size: 0.95rem;
@@ -50,6 +59,7 @@ horizontal: false
 
 .hydrodynamics-page strong {
   font-weight: 650;
+  color: #0F172A;
 }
 
 .hydrodynamics-page a {
@@ -61,7 +71,7 @@ horizontal: false
   text-decoration: underline;
 }
 
-/* Nice divider */
+/* Divider */
 .hydrodynamics-page .soft-hr {
   border: 0;
   height: 1px;
@@ -73,6 +83,29 @@ horizontal: false
   );
   margin: 26px 0;
 }
+
+/* Project cards */
+.hydro-image-card {
+  background: linear-gradient(135deg, rgba(232,246,255,0.92), rgba(243,251,255,0.92));
+  border-radius:16px;
+  padding:14px;
+  border:1px solid rgba(155,221,255,0.40);
+  box-shadow:0 10px 22px rgba(0,85,164,0.10);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  text-align:center;
+  height:100%;
+}
+.hydro-image-card:hover {
+  transform: translateY(-2px);
+  box-shadow:0 14px 28px rgba(0,85,164,0.14);
+}
+.hydro-image-card img {
+  width:100%;
+  max-width:220px;
+  border-radius:12px;
+  box-shadow:0 6px 14px rgba(0,85,164,0.18);
+}
+.projects .row { row-gap:18px !important; }
 </style>
 
 <div class="hydrodynamics-page">
@@ -92,18 +125,18 @@ horizontal: false
   gap: 26px;
 ">
 
-  <div style="flex: 1 1 330px; min-width: 280px;">
+  <div style="flex:1 1 330px; min-width:280px;">
     <div class="section-label">Research Theme</div>
 
-    <h1 style="margin:0 0 14px 0; font-size:2.1rem; line-height:1.2;">
+    <h1 style="margin:0 0 14px 0; font-size:2.1rem; line-height:1.2; font-weight:650;">
       Wind–Water–Sediment Dynamics
     </h1>
 
     <p style="margin:0 0 12px 0; font-size:1rem; line-height:1.65;">
       We develop <strong>physics-first hydrodynamic models</strong> that connect
       <strong>turbulence, roughness, and multiscale transport</strong> to predict
-      sediment suspension, scour/deposition, and the flow–ecosystem interactions that
-      shape rivers, coasts, and engineered channels.
+      sediment suspension, scour/deposition, and flow–ecosystem interactions
+      shaping rivers, coasts, and engineered channels.
     </p>
 
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
@@ -133,49 +166,39 @@ horizontal: false
 
 <hr class="soft-hr" />
 
-<h2>What does “Hydrodynamics” mean in our group?</h2>
+<!-- ===============================
+     Meaning
+     =============================== -->
+<div class="section-title">
+  What does “Hydrodynamics” mean in our group?
+</div>
 
-In our work, <strong>hydrodynamics is a bridge</strong> between turbulence physics and real-world transport:
-how momentum, energy, particles, and scalars move through rivers, wetlands, and coastal systems.
+<p>
+  In our work, <strong>hydrodynamics is a bridge</strong> between turbulence physics and real-world transport:
+  how momentum, energy, particles, and scalars move through rivers, wetlands, and coastal systems.
+</p>
 
-We focus on:
+<ul>
+  <li>deriving <strong>transport laws</strong> from turbulence budgets and spectra</li>
+  <li>quantifying how <strong>roughness and vegetation</strong> reshape flow structure</li>
+  <li>predicting <strong>suspension, settling, scour, and deposition</strong></li>
+  <li>building models that are <strong>interpretable, scalable, and validated</strong></li>
+</ul>
 
-- deriving <strong>transport laws</strong> from turbulence budgets and spectra  
-- quantifying how <strong>roughness and vegetation</strong> reshape flow structure and mixing  
-- predicting <strong>suspension, settling, scour, and deposition</strong> across regimes  
-- building models that remain <strong>interpretable</strong>, <strong>scalable</strong>, and <strong>validated</strong>  
-
-Rather than relying only on empirical correlations, we aim to connect observations to mechanisms—so models
-remain reliable under <strong>nonstationary forcing</strong> and <strong>climate-driven extremes</strong>.
+<p>
+  Rather than relying on empirical correlations alone, we connect observations to mechanisms
+  so models remain reliable under <strong>nonstationary forcing</strong> and
+  <strong>climate-driven extremes</strong>.
+</p>
 
 <hr class="soft-hr" />
 
-
-<h2>What projects are we working on?</h2>
-
-<style>
-.hydro-image-card {
-  background: linear-gradient(135deg, rgba(232,246,255,0.92), rgba(243,251,255,0.92));
-  border-radius:16px;
-  padding:14px;
-  border:1px solid rgba(155,221,255,0.40);
-  box-shadow:0 10px 22px rgba(0,85,164,0.10);
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
-  text-align:center;
-  height: 100%;
-}
-.hydro-image-card:hover {
-  transform: translateY(-2px);
-  box-shadow:0 14px 28px rgba(0,85,164,0.14);
-}
-.hydro-image-card img {
-  width:100%;
-  max-width:220px;
-  border-radius:12px;
-  box-shadow:0 6px 14px rgba(0,85,164,0.18);
-}
-.projects .row { row-gap:18px !important; }
-</style>
+<!-- ===============================
+     Projects
+     =============================== -->
+<div class="section-title-sm">
+  What projects are we working on?
+</div>
 
 <div class="projects">
   {% assign sorted_projects = site.hydrodynamics | sort: "importance" %}
@@ -194,23 +217,29 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 
 <hr class="soft-hr" />
 
+<!-- ===============================
+     Example questions
+     =============================== -->
+<div class="section-title-sm">
+  Example questions we ask
+</div>
 
-
-
-
-<h2>Example questions we ask</h2>
-
-- What is the minimal turbulence physics needed to predict <strong>bulk sediment transport</strong> across regimes?  
-- When do classical models (e.g., mixing-length closures, Rouse theory) break, and what replaces them?  
-- How do <strong>roughness and vegetation</strong> reorganize flow structure and effective diffusivities?  
-- Can we derive <strong>universal scaling laws</strong> that remain stable under climate-driven changes in forcing?  
-- How do we build models that are both <strong>field-validated</strong> and <strong>deployment-ready</strong> for infrastructure resilience?  
+<ul>
+  <li>What is the minimal turbulence physics needed to predict <strong>bulk sediment transport</strong>?</li>
+  <li>When do classical models break, and what replaces them?</li>
+  <li>How do <strong>roughness and vegetation</strong> reorganize effective diffusivities?</li>
+  <li>Can we derive <strong>universal scaling laws</strong> stable under climate change?</li>
+  <li>How do we build models that are both <strong>field-validated</strong> and <strong>deployment-ready</strong>?</li>
+</ul>
 
 <hr class="soft-hr" />
 
-
-
-<h2>Core research directions</h2>
+<!-- ===============================
+     Core directions
+     =============================== -->
+<div class="section-title-sm">
+  Core research directions
+</div>
 
 <div style="
   display:grid;
@@ -221,34 +250,22 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 
   <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
     <div class="card-title">🌀 Turbulence → bulk transport laws</div>
-    <p style="margin:0;">
-      First-principles links between turbulence energetics (TKE, stress budgets, spectra) and
-      bulk sediment transport—yielding <strong>universal scaling</strong> across datasets.
-    </p>
+    <p style="margin:0;">First-principles links between turbulence energetics and sediment transport.</p>
   </div>
 
   <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
     <div class="card-title">🧱 Walls, roughness, and dissipation</div>
-    <p style="margin:0;">
-      Mechanistic models of wall friction and roughness transitions that explain classical
-      friction-factor diagrams from turbulence theory.
-    </p>
+    <p style="margin:0;">Mechanistic explanations of friction-factor transitions.</p>
   </div>
 
   <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
     <div class="card-title">🌿 Vegetation–flow–transport coupling</div>
-    <p style="margin:0;">
-      How structured roughness (canopies, wetlands) reorganizes velocity, stresses, and mixing—linking
-      microscale turbulence to <strong>field-scale contaminant and sediment outcomes</strong>.
-    </p>
+    <p style="margin:0;">From canopy-scale turbulence to field-scale outcomes.</p>
   </div>
 
   <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
-    <div class="card-title">⚗️ Settling, suspension, and multiscale turbulence</div>
-    <p style="margin:0;">
-      Theory for particle settling and suspension in turbulence, clarifying when classical
-      assumptions (e.g., still-water settling, Rouse limits) succeed or fail.
-    </p>
+    <div class="card-title">⚗️ Settling, suspension, multiscale turbulence</div>
+    <p style="margin:0;">When classical settling theories succeed or fail.</p>
   </div>
 
 </div>
