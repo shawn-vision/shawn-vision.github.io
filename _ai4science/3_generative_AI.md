@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Generative Physical System Emulation
-img: assets/img/pem.png
+img: assets/img/geds.png
 importance: 3
 ---
 

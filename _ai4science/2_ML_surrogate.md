@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Machine Learning for Surrogate Model
-img: assets/img/mlm.png
+img: assets/img/mlsds.png
 importance: 2
 ---
 

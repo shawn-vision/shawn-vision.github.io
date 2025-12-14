@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Probabilistic Data Assimilation
-img: assets/img/climate-da.png
+img: assets/img/pda.png
 importance: 1
 ---
 
