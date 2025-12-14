@@ -178,7 +178,7 @@ horizontal: false
 <!-- ===============================
      What does AI for Science mean?
      =============================== -->
-<div class="section-title">
+<div class="section-title-sm">
   What does “AI for Science” mean in our group?
 </div>
 
