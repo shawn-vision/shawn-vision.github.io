@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turbulence and the Wall
-img: assets/img/turbulence-wall.png
+img: assets/img/tw1.png
 importance: 2
 ---
 

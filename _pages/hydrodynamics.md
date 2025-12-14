@@ -133,7 +133,7 @@ horizontal: false
 
 <hr class="soft-hr" />
 
-## What does “Hydrodynamics” mean in our group?
+<h2>What does “Hydrodynamics” mean in our group?</h2>
 
 In our work, <strong>hydrodynamics is a bridge</strong> between turbulence physics and real-world transport:
 how momentum, energy, particles, and scalars move through rivers, wetlands, and coastal systems.
@@ -150,7 +150,8 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 
 <hr class="soft-hr" />
 
-## Hydrodynamics Projects
+
+<h2>What projects are we working on?</h2>
 
 <style>
 .hydro-image-card {
@@ -193,7 +194,11 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 
 <hr class="soft-hr" />
 
-## Example Questions We Ask
+
+
+
+
+<h2>Example questions we ask</h2>
 
 - What is the minimal turbulence physics needed to predict <strong>bulk sediment transport</strong> across regimes?  
 - When do classical models (e.g., mixing-length closures, Rouse theory) break, and what replaces them?  
@@ -203,7 +208,9 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 
 <hr class="soft-hr" />
 
-## Core Research Directions
+
+
+<h2>Core research directions</h2>
 
 <div style="
   display:grid;

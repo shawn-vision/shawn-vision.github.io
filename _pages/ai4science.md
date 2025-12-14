@@ -19,13 +19,26 @@ horizontal: false
 .ai4science-page h2,
 .ai4science-page h3 {
   font-weight: 650;
+  color: #0F172A;
 }
 
-.ai4science-page h2 {
-  margin-top: 36px;
-  margin-bottom: 14px;
+/* Make section titles consistent and “big-font” (since you prefer HTML headings) */
+.ai4science-page .section-title {
+  font-size: 2.0rem;
+  font-weight: 650;
+  line-height: 1.25;
+  margin: 32px 0 14px 0;
 }
 
+/* Secondary section titles */
+.ai4science-page .section-title-sm {
+  font-size: 1.55rem;
+  font-weight: 650;
+  line-height: 1.25;
+  margin: 26px 0 12px 0;
+}
+
+/* Label style */
 .ai4science-page .section-label {
   font-size: 0.85rem;
   letter-spacing: 0.12em;
@@ -50,6 +63,7 @@ horizontal: false
 
 .ai4science-page strong {
   font-weight: 650;
+  color: #0F172A;
 }
 
 .ai4science-page a {
@@ -65,8 +79,42 @@ horizontal: false
 .ai4science-page .soft-hr {
   border: 0;
   height: 1px;
-  background: linear-gradient(90deg, rgba(155,221,255,0.0), rgba(155,221,255,0.75), rgba(155,221,255,0.0));
+  background: linear-gradient(
+    90deg,
+    rgba(155,221,255,0.0),
+    rgba(155,221,255,0.75),
+    rgba(155,221,255,0.0)
+  );
   margin: 26px 0;
+}
+
+/* Project image cards */
+.ai4s-image-card {
+  background: linear-gradient(135deg, rgba(232,246,255,0.92), rgba(243,251,255,0.92));
+  border-radius:16px;
+  padding:14px;
+  border:1px solid rgba(155,221,255,0.40);
+  box-shadow:0 10px 22px rgba(0,85,164,0.10);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  text-align:center;
+  height: 100%;
+}
+.ai4s-image-card:hover {
+  transform: translateY(-2px);
+  box-shadow:0 14px 28px rgba(0,85,164,0.14);
+}
+.ai4s-image-card img {
+  width:100%;
+  max-width:220px;
+  border-radius:12px;
+  box-shadow:0 6px 14px rgba(0,85,164,0.18);
+}
+.projects .row { row-gap:18px !important; }
+
+/* Make markdown lists render nicely inside this page */
+.ai4science-page ul {
+  margin-top: 6px;
+  margin-bottom: 10px;
 }
 </style>
 
@@ -124,47 +172,39 @@ horizontal: false
 
 <hr class="soft-hr" />
 
+<!-- ===============================
+     What does AI for Science mean?
+     (HTML-only to avoid markdown line break issues)
+     =============================== -->
+<div class="section-title">
+  What does “AI for Science” mean in our group?
+</div>
 
-<h2>What does “AI for Science” mean in our group?</h2>
+<p style="margin-bottom: 12px;">
+  In our work, <strong>AI is tightly coupled to physical reasoning</strong>.
+</p>
 
-In our work, <strong>AI is tightly coupled to physical reasoning</strong>.  
-We use generative and probabilistic models to:
+<p style="margin-bottom: 10px;">
+  We use generative and probabilistic models to:
+</p>
 
-- learn <strong>distributions</strong> of fields (velocity, temperature, concentration)  
-- emulate and accelerate <strong>high-fidelity simulators</strong>  
-- quantify <strong>uncertainty and extremes</strong> in mechanical and Earth systems  
-- inform <strong>design and control</strong> for engineered systems  
+<ul style="margin-top: 0; margin-bottom: 14px;">
+  <li>learn <strong>distributions</strong> of fields (velocity, temperature, concentration)</li>
+  <li>emulate and accelerate <strong>high-fidelity simulators</strong></li>
+  <li>quantify <strong>uncertainty and extremes</strong> in mechanical and Earth systems</li>
+  <li>inform <strong>design and control</strong> for engineered systems</li>
+</ul>
 
-Rather than replacing equations, we <strong>embed physics inside machine learning</strong>.
+<p style="margin-top: 6px;">
+  Rather than replacing equations, we <strong>embed physics inside machine learning</strong>.
+</p>
 
 <hr class="soft-hr" />
 
-
-<h2>What projects are we working on?</h2>
-
-<style>
-.ai4s-image-card {
-  background: linear-gradient(135deg, rgba(232,246,255,0.92), rgba(243,251,255,0.92));
-  border-radius:16px;
-  padding:14px;
-  border:1px solid rgba(155,221,255,0.40);
-  box-shadow:0 10px 22px rgba(0,85,164,0.10);
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
-  text-align:center;
-  height: 100%;
-}
-.ai4s-image-card:hover {
-  transform: translateY(-2px);
-  box-shadow:0 14px 28px rgba(0,85,164,0.14);
-}
-.ai4s-image-card img {
-  width:100%;
-  max-width:220px;
-  border-radius:12px;
-  box-shadow:0 6px 14px rgba(0,85,164,0.18);
-}
-.projects .row { row-gap:18px !important; }
-</style>
+<!-- ===============================
+     Projects (right after “what is AI for Science”)
+     =============================== -->
+<div class="section-title-sm">What projects are we working on?</div>
 
 <div class="projects">
   {% assign sorted_projects = site.ai4science | sort: "importance" %}
@@ -183,20 +223,24 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 
 <hr class="soft-hr" />
 
+<!-- ===============================
+     Example questions (use HTML list for reliable wrapping)
+     =============================== -->
+<div class="section-title-sm">Example questions we ask</div>
 
-
-<h2>Example questions we ask</h2>
-
-- How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?  
-- Can <strong>symbolic ML</strong> recover interpretable transport and scaling laws?  
-- How do we combine <strong>data assimilation, generative models, and physical constraints</strong>?  
-- What is the most efficient way to design <strong>cooling strategies</strong> for large data clusters?  
+<ul style="margin-top: 0; margin-bottom: 0;">
+  <li>How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?</li>
+  <li>Can <strong>symbolic ML</strong> recover interpretable transport and scaling laws?</li>
+  <li>How do we combine <strong>data assimilation, generative models, and physical constraints</strong>?</li>
+  <li>What is the most efficient way to design <strong>cooling strategies</strong> for large data clusters?</li>
+</ul>
 
 <hr class="soft-hr" />
 
-
-
-<h2>Core research directions</h2>
+<!-- ===============================
+     Core directions
+     =============================== -->
+<div class="section-title-sm">Core research directions</div>
 
 <div style="
   display:grid;

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turbulence and the Vegetation
-img: assets/img/turbulence-vegetation.png
+img: assets/img/tv1.png
 importance: 3
 ---
 

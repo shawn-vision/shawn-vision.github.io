@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turbulence and Bulk Transport Laws
-img: assets/img/turbulence-bulk-transport.png
+img: assets/img/tb1.png
 importance: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fluid Mechanics and Epidemiology
-img: assets/img/epi-fluid.png
+img: assets/img/fe1.png
 importance: 1
 ---
 

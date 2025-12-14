@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turbulence and Sediments
-img: assets/img/turbulence-sediments.png
+img: assets/img/ts1.png
 importance: 4
 ---
 
