@@ -169,7 +169,7 @@ horizontal: false
 <!-- ===============================
      Meaning
      =============================== -->
-<div class="section-title">
+<div class="section-title-sm">
   What does “Hydrodynamics” mean in our group?
 </div>
 
