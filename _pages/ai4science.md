@@ -165,74 +165,76 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 ## AI for Science Projects
 
+<!-- =========================
+     AI for Science Projects
+     (Title + Image-only cards)
+     ========================= -->
+
+<div style="
+  background:#E8F6FF;
+  border-radius:16px;
+  padding:16px 18px;
+  margin: 24px 0 18px 0;
+  border: 1px solid #9BDDFF66;
+">
+  <div style="font-size:1.05rem; font-weight:600; color:#0055A4;">
+    🧠 AI for Science Projects
+  </div>
+</div>
+
 <style>
-/* Shrink the project cards */
-.ai4s-project-box {
-  padding: 12px !important;
-  border-radius: 14px !important;
-  background: #E8F6FF !important;  /* Columbia Blue light */
-  border: 1px solid #9BDDFF55;
-  margin-bottom: 16px;
+/* Image-only project cards (match Core Research Directions style) */
+.ai4s-image-card {
+  background: linear-gradient(135deg, #E8F6FF 0%, #F3FBFF 100%);
+  border-radius: 16px;
+  padding: 14px;
+  border: 1px solid #9BDDFF66;
+  box-shadow: 0 10px 22px rgba(0,85,164,0.10);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  text-align: center;
+  height: 100%;
 }
 
-/* Make project titles smaller & cleaner */
-.ai4s-project-title {
-  font-size: 0.95rem !important;
-  margin-bottom: 6px;
-  color: #0055A4;
-  font-weight: 600;
+.ai4s-image-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0,85,164,0.14);
 }
 
-/* Compact descriptive text */
-.ai4s-project-text {
-  font-size: 0.88rem !important;
-  line-height: 1.45 !important;
-  margin: 0 !important;
-}
-
-/* Compact thumbnails */
-.ai4s-project-thumb img {
-  width: 70px !important;
-  border-radius: 8px;
+/* Image styling */
+.ai4s-image-card img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 12px;
   box-shadow: 0 6px 14px rgba(0,85,164,0.18);
 }
 
-/* Make layout spacing nice */
+/* Grid spacing consistency */
 .projects .row {
-  row-gap: 16px !important;
+  row-gap: 18px !important;
 }
 </style>
 
 <div class="projects">
 
-{% assign sorted_projects = site.ai4science | sort: "importance" %}
+  {% assign sorted_projects = site.ai4science | sort: "importance" %}
 
-{% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% for project in sorted_projects %}
-        <div class="col">
-          <div class="ai4s-project-box">
-            {% include projects_horizontal.liquid %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-{% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       <div class="col">
-        <div class="ai4s-project-box">
-          {% include projects.liquid %}
-        </div>
+        <a href="{{ project.url | relative_url }}" style="text-decoration:none;">
+          <div class="ai4s-image-card">
+            <img src="{{ project.img | relative_url }}"
+                 alt="{{ project.title }}">
+          </div>
+        </a>
       </div>
     {% endfor %}
   </div>
-{% endif %}
 
 </div>
 
+<!-- ========================= -->
 
 ---
 
