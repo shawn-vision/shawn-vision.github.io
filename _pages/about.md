@@ -120,7 +120,7 @@ latest_posts:
 </ul>
 
 <div class="about-card">
-  <div class="section-label">Position adn Training</div>
+  <div class="section-label">Brief Introduction</div>
   <p style="margin:0;">
       I am a research scientist in the
     <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>

@@ -8,7 +8,6 @@ nav_order: 3
 horizontal: false
 ---
 
-
 <style>
 .hydrodynamics-page,
 .hydrodynamics-page * {
@@ -61,16 +60,31 @@ horizontal: false
   color: #003B73;
   text-decoration: underline;
 }
+
+/* Nice divider */
+.hydrodynamics-page .soft-hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(155,221,255,0.0),
+    rgba(155,221,255,0.75),
+    rgba(155,221,255,0.0)
+  );
+  margin: 26px 0;
+}
 </style>
 
 <div class="hydrodynamics-page">
 
-
+<!-- ===============================
+     Hero
+     =============================== -->
 <div style="
   background: linear-gradient(135deg, #E8F6FF 0%, #C9E8FF 100%);
   border-radius: 18px;
   padding: 36px 32px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
   border: 1px solid #9BDDFF88;
   display: flex;
   flex-wrap: wrap;
@@ -93,16 +107,16 @@ horizontal: false
     </p>
 
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-      <span style="background:#9BDDFF; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#9BDDFF; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#003366;">
         Turbulence & Roughness
       </span>
-      <span style="background:#B3E5FC; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#B3E5FC; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#004B87;">
         Sediment Transport
       </span>
-      <span style="background:#D9F2FF; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#D9F2FF; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#003B66;">
         Scour & Deposition
       </span>
-      <span style="background:#E0F2FE; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#E0F2FE; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#02416E;">
         Vegetated Flows
       </span>
     </div>
@@ -117,6 +131,7 @@ horizontal: false
 
 </div>
 
+<hr class="soft-hr" />
 
 ## What does “Hydrodynamics” mean in our group?
 
@@ -130,14 +145,12 @@ We focus on:
 - predicting <strong>suspension, settling, scour, and deposition</strong> across regimes  
 - building models that remain <strong>interpretable</strong>, <strong>scalable</strong>, and <strong>validated</strong>  
 
-Rather than relying only on empirical correlations, we connect observations to mechanisms—so models remain reliable under
-<strong>nonstationary forcing</strong> and <strong>climate-driven extremes</strong>.
+Rather than relying only on empirical correlations, we aim to connect observations to mechanisms—so models
+remain reliable under <strong>nonstationary forcing</strong> and <strong>climate-driven extremes</strong>.
 
----
-
+<hr class="soft-hr" />
 
 ## Hydrodynamics Projects
-
 
 <style>
 .hydro-image-card {
@@ -148,20 +161,18 @@ Rather than relying only on empirical correlations, we connect observations to m
   box-shadow:0 10px 22px rgba(0,85,164,0.10);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
   text-align:center;
+  height: 100%;
 }
-
 .hydro-image-card:hover {
   transform: translateY(-2px);
   box-shadow:0 14px 28px rgba(0,85,164,0.14);
 }
-
 .hydro-image-card img {
   width:100%;
   max-width:220px;
   border-radius:12px;
   box-shadow:0 6px 14px rgba(0,85,164,0.18);
 }
-
 .projects .row { row-gap:18px !important; }
 </style>
 
@@ -170,7 +181,7 @@ Rather than relying only on empirical correlations, we connect observations to m
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
     <div class="col">
-      <a href="{{ project.url | relative_url }}">
+      <a href="{{ project.url | relative_url }}" style="text-decoration:none;">
         <div class="hydro-image-card">
           <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
         </div>
@@ -180,8 +191,7 @@ Rather than relying only on empirical correlations, we connect observations to m
   </div>
 </div>
 
----
-
+<hr class="soft-hr" />
 
 ## Example Questions We Ask
 
@@ -191,8 +201,7 @@ Rather than relying only on empirical correlations, we connect observations to m
 - Can we derive <strong>universal scaling laws</strong> that remain stable under climate-driven changes in forcing?  
 - How do we build models that are both <strong>field-validated</strong> and <strong>deployment-ready</strong> for infrastructure resilience?  
 
----
-
+<hr class="soft-hr" />
 
 ## Core Research Directions
 
@@ -205,7 +214,7 @@ Rather than relying only on empirical correlations, we connect observations to m
 
   <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
     <div class="card-title">🌀 Turbulence → bulk transport laws</div>
-    <p>
+    <p style="margin:0;">
       First-principles links between turbulence energetics (TKE, stress budgets, spectra) and
       bulk sediment transport—yielding <strong>universal scaling</strong> across datasets.
     </p>
@@ -213,7 +222,7 @@ Rather than relying only on empirical correlations, we connect observations to m
 
   <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
     <div class="card-title">🧱 Walls, roughness, and dissipation</div>
-    <p>
+    <p style="margin:0;">
       Mechanistic models of wall friction and roughness transitions that explain classical
       friction-factor diagrams from turbulence theory.
     </p>
@@ -221,7 +230,7 @@ Rather than relying only on empirical correlations, we connect observations to m
 
   <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
     <div class="card-title">🌿 Vegetation–flow–transport coupling</div>
-    <p>
+    <p style="margin:0;">
       How structured roughness (canopies, wetlands) reorganizes velocity, stresses, and mixing—linking
       microscale turbulence to <strong>field-scale contaminant and sediment outcomes</strong>.
     </p>
@@ -229,7 +238,7 @@ Rather than relying only on empirical correlations, we connect observations to m
 
   <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
     <div class="card-title">⚗️ Settling, suspension, and multiscale turbulence</div>
-    <p>
+    <p style="margin:0;">
       Theory for particle settling and suspension in turbulence, clarifying when classical
       assumptions (e.g., still-water settling, Rouse limits) succeed or fail.
     </p>
