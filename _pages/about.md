@@ -33,6 +33,6 @@ I am a research scientist in the [Data Science Institute](https://www.datascienc
 
 I develop **physics-grounded, uncertainty-quantified models** that integrate turbulence theory with generative machine learning to predict how Earth’s surface and climate extremes evolve under intensifying human pressures. Turbulence serves as the unifying framework of my research: it governs particle transport, shapes landscape morphodynamics, and modulates boundary-layer dynamics that influence the onset, intensity, and persistence of heat waves. As such, my research sits at the intersection of: (i) turbulence and hydrodynamics, (ii) heat transfer and data-center cooling, (iii) sediment transport and geomorphology, and (iv) generative machine learning for probability distributions.
 
-Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S.in Computer Science from Duke University. Earlier in my academic career, I received graduate degrees in Mechanical Engineering at Cornell University and Environmental Engineering at Northwestern University.
+Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S.in Computer Science from Duke University. Earlier in my academic career, I graduated in Mechanical Engineering from Cornell University and Environmental Engineering from Northwestern University.
 
 
