@@ -18,24 +18,25 @@ horizontal: false
 .ai4science-page h1,
 .ai4science-page h2,
 .ai4science-page h3 {
-  font-weight: 650;
   color: #0F172A;
 }
 
-/* Make section titles consistent and “big-font” (since you prefer HTML headings) */
+/* ===== Section titles (your preferred big-font, non-bold style) ===== */
 .ai4science-page .section-title {
-  font-size: 2.0rem;
-  font-weight: 650;
-  line-height: 1.25;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.3;
   margin: 32px 0 14px 0;
+  color: #0F172A;
 }
 
-/* Secondary section titles */
+/* Smaller section titles (still same style, just smaller) */
 .ai4science-page .section-title-sm {
-  font-size: 1.55rem;
-  font-weight: 650;
-  line-height: 1.25;
-  margin: 26px 0 12px 0;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 28px 0 12px 0;
+  color: #0F172A;
 }
 
 /* Label style */
@@ -48,6 +49,7 @@ horizontal: false
   margin-bottom: 8px;
 }
 
+/* Card titles */
 .ai4science-page .card-title {
   font-size: 1.02rem;
   font-weight: 600;
@@ -55,6 +57,7 @@ horizontal: false
   color: #0055A4;
 }
 
+/* Body text */
 .ai4science-page p,
 .ai4science-page li {
   font-size: 0.95rem;
@@ -111,7 +114,7 @@ horizontal: false
 }
 .projects .row { row-gap:18px !important; }
 
-/* Make markdown lists render nicely inside this page */
+/* Make HTML lists render nicely inside this page */
 .ai4science-page ul {
   margin-top: 6px;
   margin-bottom: 10px;
@@ -138,7 +141,7 @@ horizontal: false
   <div style="flex: 1 1 330px; min-width: 280px;">
     <div class="section-label">Research Theme</div>
 
-    <h1 style="margin:0 0 14px 0; font-size:2.1rem; line-height:1.2;">
+    <h1 style="margin:0 0 14px 0; font-size:2.1rem; line-height:1.2; font-weight:650;">
       Generative Models for Physical Systems
     </h1>
 
@@ -174,7 +177,6 @@ horizontal: false
 
 <!-- ===============================
      What does AI for Science mean?
-     (HTML-only to avoid markdown line break issues)
      =============================== -->
 <div class="section-title">
   What does “AI for Science” mean in our group?
@@ -204,7 +206,9 @@ horizontal: false
 <!-- ===============================
      Projects (right after “what is AI for Science”)
      =============================== -->
-<div class="section-title-sm">What projects are we working on?</div>
+<div class="section-title-sm">
+  What projects are we working on?
+</div>
 
 <div class="projects">
   {% assign sorted_projects = site.ai4science | sort: "importance" %}
@@ -224,9 +228,11 @@ horizontal: false
 <hr class="soft-hr" />
 
 <!-- ===============================
-     Example questions (use HTML list for reliable wrapping)
+     Example questions
      =============================== -->
-<div class="section-title-sm">Example questions we ask</div>
+<div class="section-title-sm">
+  Example questions we ask
+</div>
 
 <ul style="margin-top: 0; margin-bottom: 0;">
   <li>How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?</li>
@@ -240,7 +246,9 @@ horizontal: false
 <!-- ===============================
      Core directions
      =============================== -->
-<div class="section-title-sm">Core research directions</div>
+<div class="section-title-sm">
+  Core research directions
+</div>
 
 <div style="
   display:grid;
