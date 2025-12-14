@@ -124,7 +124,8 @@ horizontal: false
 
 <hr class="soft-hr" />
 
-## What does “AI for Science” mean in our group?
+
+<h2>What does “AI for Science” mean in our group?</h2>
 
 In our work, <strong>AI is tightly coupled to physical reasoning</strong>.  
 We use generative and probabilistic models to:
@@ -138,7 +139,8 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 
 <hr class="soft-hr" />
 
-## AI for Science Projects
+
+<h2>What projects are we working on?</h2>
 
 <style>
 .ai4s-image-card {
@@ -181,7 +183,9 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 
 <hr class="soft-hr" />
 
-## Example Questions We Ask
+
+
+<h2>Example questions we ask</h2>
 
 - How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?  
 - Can <strong>symbolic ML</strong> recover interpretable transport and scaling laws?  
@@ -190,7 +194,9 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 
 <hr class="soft-hr" />
 
-## Core Research Directions
+
+
+<h2>Core research directions</h2>
 
 <div style="
   display:grid;
