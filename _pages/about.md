@@ -82,14 +82,7 @@ latest_posts:
 
 <div class="about-page">
 
-<div class="about-card">
-  <p class="about-lead" style="margin:0;">
-    I am a research scientist in the <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
-    at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
-    <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
-    <em>Learning the Earth with AI and Physics</em>.
-  </p>
-</div>
+
 
 <p>
   I develop <strong>physics-grounded, uncertainty-quantified models</strong> that integrate turbulence theory with
@@ -103,16 +96,23 @@ latest_posts:
 </p>
 
 <ul style="margin-top: 0;">
-  <li>(i) turbulence and hydrodynamics</li>
-  <li>(ii) heat transfer and data-center cooling</li>
-  <li>(iii) sediment transport and geomorphology</li>
-  <li>(iv) generative machine learning for probability distributions</li>
+  <li> turbulence and hydrodynamics</li>
+  <li> heat transfer and data-center cooling</li>
+  <li> sediment transport and geomorphology</li>
+  <li> generative machine learning for probability distributions</li>
 </ul>
 
-<p>
-  Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science from Duke University.
+<div class="about-card">
+  <p class="about-lead" style="margin:0;">
+    I am a research scientist in the <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
+    at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
+    <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
+    <em>Learning the Earth with AI and Physics</em>.  Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science from Duke University.
   Earlier in my academic career, I graduated in Mechanical Engineering from Cornell University and Environmental Engineering
   from Northwestern University.
-</p>
+  </p>
+</div>
+
+
 
 </div>

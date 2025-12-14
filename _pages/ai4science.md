@@ -90,9 +90,7 @@ horizontal: false
 ">
 
   <div style="flex: 1 1 330px; min-width: 280px;">
-    <div class="section-label">
-      Research Theme
-    </div>
+    <div class="section-label">Research Theme</div>
 
     <h1 style="
       margin-top: 0;
@@ -146,8 +144,6 @@ horizontal: false
 
 </div>
 
----
-
 ## What does “AI for Science” mean in our group?
 
 In our work, <strong>AI is tightly coupled to physical reasoning</strong>.  
@@ -162,6 +158,50 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 ---
 
+## Core Research Directions
+
+<div style="
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  margin: 24px 0 10px 0;
+">
+
+  <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
+    <div class="card-title">🌀 Turbulence & Flow Surrogates</div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      Generative surrogates and operator-learning architectures that emulate turbulent
+      flow fields and boundary-layer dynamics at a fraction of the computational cost.
+    </p>
+  </div>
+
+  <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
+    <div class="card-title">❄️ Heat Transfer & Data-Center Cooling</div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      ML-enhanced models of conjugate heat transfer for <strong>AI and HPC data clusters</strong>,
+      linking cooling efficiency, flow control, and thermal reliability.
+    </p>
+  </div>
+
+  <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
+    <div class="card-title">⛰️ Sediment Transport & Morphodynamics</div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      Symbolic and generative models that connect turbulence physics with bedform
+      evolution, transport capacity, and landscape change.
+    </p>
+  </div>
+
+  <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
+    <div class="card-title">📊 Probabilistic Modeling & Extremes</div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      Normalizing flows, diffusion models, and other generative tools for learning
+      distributions, tail behavior, and uncertainty in mechanical and climate systems.
+    </p>
+  </div>
+
+</div>
+
+---
 
 ## AI for Science Projects
 
@@ -172,13 +212,10 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
   margin: 24px 0 18px 0;
   border: 1px solid #9BDDFF66;
 ">
-  <div class="card-title" style="margin:0;">
-    🧠 AI for Science Projects
-  </div>
+  <div class="card-title" style="margin:0;">🧠 AI for Science Projects</div>
 </div>
 
 <style>
-/* Image-only project cards (match Core Research Directions style) */
 .ai4s-image-card {
   background: linear-gradient(
     135deg,
@@ -199,7 +236,6 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
   box-shadow: 0 14px 28px rgba(0,85,164,0.14);
 }
 
-/* Image styling */
 .ai4s-image-card img {
   width: 100%;
   max-width: 220px;
@@ -208,14 +244,12 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
   box-shadow: 0 6px 14px rgba(0,85,164,0.18);
 }
 
-/* Grid spacing consistency */
 .projects .row {
   row-gap: 18px !important;
 }
 </style>
 
 <div class="projects">
-
   {% assign sorted_projects = site.ai4science | sort: "importance" %}
 
   <div class="row row-cols-1 row-cols-md-3">
@@ -223,70 +257,16 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
       <div class="col">
         <a href="{{ project.url | relative_url }}" style="text-decoration:none;">
           <div class="ai4s-image-card">
-            <img src="{{ project.img | relative_url }}"
-                 alt="{{ project.title }}">
+            <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
           </div>
         </a>
       </div>
     {% endfor %}
   </div>
-
 </div>
 
 ---
 
-## Core Research Directions
-
-<div style="
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
-  margin: 24px 0 10px 0;
-">
-
-  <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      🌀 Turbulence & Flow Surrogates
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Generative surrogates and operator-learning architectures that emulate turbulent
-      flow fields and boundary-layer dynamics at a fraction of the computational cost.
-    </p>
-  </div>
-
-  <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      ❄️ Heat Transfer & Data-Center Cooling
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      ML-enhanced models of conjugate heat transfer for <strong>AI and HPC data clusters</strong>,
-      linking cooling efficiency, flow control, and thermal reliability.
-    </p>
-  </div>
-
-  <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      ⛰️ Sediment Transport & Morphodynamics
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Symbolic and generative models that connect turbulence physics with bedform
-      evolution, transport capacity, and landscape change.
-    </p>
-  </div>
-
-  <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      📊 Probabilistic Modeling & Extremes
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Normalizing flows, diffusion models, and other generative tools for learning
-      distributions, tail behavior, and uncertainty in mechanical and climate systems.
-    </p>
-  </div>
-
-</div>
-
----
 ## Example Questions We Ask
 
 - How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?  
@@ -295,55 +275,3 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 - What is the most efficient way to use AI to <strong>design and operate cooling strategies</strong> for large data clusters?  
 
 </div>
-
-## Core Research Directions
-
-<div style="
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
-  margin: 24px 0 10px 0;
-">
-
-  <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      🌀 Turbulence & Flow Surrogates
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Generative surrogates and operator-learning architectures that emulate turbulent
-      flow fields and boundary-layer dynamics at a fraction of the computational cost.
-    </p>
-  </div>
-
-  <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      ❄️ Heat Transfer & Data-Center Cooling
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      ML-enhanced models of conjugate heat transfer for <strong>AI and HPC data clusters</strong>,
-      linking cooling efficiency, flow control, and thermal reliability.
-    </p>
-  </div>
-
-  <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      ⛰️ Sediment Transport & Morphodynamics
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Symbolic and generative models that connect turbulence physics with bedform
-      evolution, transport capacity, and landscape change.
-    </p>
-  </div>
-
-  <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
-    <div class="card-title">
-      📊 Probabilistic Modeling & Extremes
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Normalizing flows, diffusion models, and other generative tools for learning
-      distributions, tail behavior, and uncertainty in mechanical and climate systems.
-    </p>
-  </div>
-
-</div>
-
