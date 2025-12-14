@@ -65,11 +65,6 @@ horizontal: false
         Heat Transfer & Cooling
       </span>
 
-      <span style="background:#D9F2FF; color:#003B66;
-                   border-radius:999px; padding:6px 14px;
-                   font-size:0.82rem; font-weight:600;">
-        Sediment & Geomorphology
-      </span>
 
       <span style="background:#E0F2FE; color:#02416E;
                    border-radius:999px; padding:6px 14px;
@@ -163,24 +158,13 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
 
 ---
 
-## AI for Science Projects
-
+##  AI for Science Projects
 <!-- =========================
      AI for Science Projects
      (Title + Image-only cards)
      ========================= -->
 
-<div style="
-  background:#E8F6FF;
-  border-radius:16px;
-  padding:16px 18px;
-  margin: 24px 0 18px 0;
-  border: 1px solid #9BDDFF66;
-">
-  <div style="font-size:1.05rem; font-weight:600; color:#0055A4;">
-    🧠 AI for Science Projects
-  </div>
-</div>
+
 
 <style>
 /* Image-only project cards (match Core Research Directions style) */
@@ -193,6 +177,7 @@ Rather than “replacing equations,” we aim to <strong>embed physics inside ma
   transition: transform 0.12s ease, box-shadow 0.12s ease;
   text-align: center;
   height: 100%;
+  opacity: 0.7;
 }
 
 .ai4s-image-card:hover {
