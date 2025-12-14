@@ -152,9 +152,6 @@ nav_order: 4
 
 <div class="publications-page">
 
-<!-- ===============================
-     Hero
-     =============================== -->
 <div style="
   background: linear-gradient(135deg, #E8F6FF 0%, #C9E8FF 100%);
   border-radius: 18px;
@@ -169,10 +166,41 @@ nav_order: 4
   <div style="flex: 1 1 420px; min-width: 280px;">
     <div class="section-label">Research Output</div>
     <div class="section-title">Publications</div>
-    <p class="lead">
-      Browse papers by category in reverse chronological order (powered by <strong>jekyll-scholar</strong>).
-      Use search to quickly find specific topics, coauthors, or venues.
+
+    <p style="margin:10px 0 8px 0; font-size:0.98rem; line-height:1.6;">
+      The following papers summarize ongoing and unpublished work:
     </p>
+
+    <ul style="
+      margin: 0;
+      padding-left: 18px;
+      font-size: 0.95rem;
+      line-height: 1.55;
+    ">
+      <li style="margin-bottom:8px;">
+        <strong> Li, S.</strong>, Zheng, T., Gentine, P.
+        “Beyond Normal: Global Patterns of Summer Temperature Non-Gaussianity Revealed by Normalizing Flows.”
+        <em>Science Advances</em>, to be submitted (2025).
+      </li>
+
+      <li style="margin-bottom:8px;">
+        <strong> Hou, Z.</strong>, Sun, J., Jin, P., <strong>Li, S.</strong><sup>*</sup>, Zheng, T.
+        “Calibrating Geophysical Predictions under Constrained Probabilistic Distributions via Kernelized Stein Discrepancy.”
+        <em>Geophysical Research</em>, submitted (2025).
+      </li>
+
+      <li style="margin-bottom:8px;">
+        <strong> Li, S.</strong>, Katul, G., Zheng, T., Gentine, P.
+        “Shifting Extremes of Heat Extremes: Climate or Land Cover?”
+        <em>PNAS</em>, under review (2025).
+      </li>
+
+      <li style="margin-bottom:0;">
+        <strong> Li, S.</strong>, Pathz, T., Katul, G.
+        “Suspended sediment transport in turbulence: From eddy energetics to bulk flow.”
+        <em>Physical Review Letters</em>, under review (2nd round, 2025).
+      </li>
+    </ul>
   </div>
 </div>
 
