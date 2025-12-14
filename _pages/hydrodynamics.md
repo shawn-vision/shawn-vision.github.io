@@ -8,6 +8,74 @@ nav_order: 3
 horizontal: false
 ---
 
+<!-- ===============================
+     Hydrodynamics — Page-scoped typography/color unification
+     =============================== -->
+<style>
+.hydrodynamics-page,
+.hydrodynamics-page * {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  color: #0F172A; /* uniform dark blue */
+}
+
+/* Headings */
+.hydrodynamics-page h1,
+.hydrodynamics-page h2,
+.hydrodynamics-page h3 {
+  color: #0F172A;
+  font-weight: 650;
+}
+
+/* Section titles */
+.hydrodynamics-page h2 {
+  margin-top: 36px;
+  margin-bottom: 14px;
+}
+
+/* Label style */
+.hydrodynamics-page .section-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0055A4;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Card titles */
+.hydrodynamics-page .card-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #0055A4;
+}
+
+/* Body text */
+.hydrodynamics-page p,
+.hydrodynamics-page li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Strong emphasis */
+.hydrodynamics-page strong {
+  color: #0F172A;
+  font-weight: 650;
+}
+
+/* Links */
+.hydrodynamics-page a {
+  color: #0055A4;
+  text-decoration: none;
+}
+.hydrodynamics-page a:hover {
+  color: #003B73;
+  text-decoration: underline;
+}
+</style>
+
+<div class="hydrodynamics-page">
+
 <!-- Hero section with Columbia Blue theme -->
 <div style="
   background: linear-gradient(135deg, #E8F6FF 0%, #C9E8FF 100%);
@@ -22,14 +90,7 @@ horizontal: false
 ">
 
   <div style="flex: 1 1 330px; min-width: 280px;">
-    <div style="
-      font-size: 0.85rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #0055A4;
-      font-weight: 600;
-      margin-bottom: 8px;
-    ">
+    <div class="section-label">
       Research Theme
     </div>
 
@@ -38,9 +99,8 @@ horizontal: false
       margin-bottom: 14px;
       font-size: 2.1rem;
       line-height: 1.2;
-      color: #0F172A;
     ">
-     Wind–Water–Sediment Dynamics
+      Wind–Water–Sediment Dynamics
     </h1>
 
     <p style="margin: 0 0 12px 0; font-size: 1rem; line-height: 1.65;">
@@ -112,126 +172,74 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 
 ---
 
-## Core Research Directions
-
-<div style="
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
-  margin: 24px 0 10px 0;
-">
-
-  <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
-    <div style="font-size:1.02rem; font-weight:600; margin-bottom:6px; color:#0055A4;">
-      🌀 Turbulence → bulk transport laws
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      First-principles links between turbulence energetics (TKE, stress budgets, spectra) and
-      bulk sediment transport—yielding <strong>universal scaling</strong> across datasets.
-    </p>
-  </div>
-
-  <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
-    <div style="font-size:1.02rem; font-weight:600; margin-bottom:6px; color:#0055A4;">
-      🧱 Walls, roughness, and dissipation
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Mechanistic models of wall friction and roughness transitions that explain classical
-      friction-factor diagrams from turbulence theory.
-    </p>
-  </div>
-
-  <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
-    <div style="font-size:1.02rem; font-weight:600; margin-bottom:6px; color:#0055A4;">
-      🌿 Vegetation–flow–transport coupling
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      How structured roughness (canopies, wetlands) reorganizes velocity, stresses, and mixing—linking
-      microscale turbulence to <strong>field-scale contaminant and sediment outcomes</strong>.
-    </p>
-  </div>
-
-  <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
-    <div style="font-size:1.02rem; font-weight:600; margin-bottom:6px; color:#0055A4;">
-      ⚗️ Settling, suspension, and multiscale turbulence
-    </div>
-    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
-      Theory for particle settling and suspension in turbulence, clarifying when classical
-      assumptions (e.g., still-water settling, Rouse limits) succeed or fail.
-    </p>
-  </div>
-
-</div>
-
----
 
 ## Hydrodynamics Projects
 
+<div style="
+  background:#E8F6FF;
+  border-radius:16px;
+  padding:16px 18px;
+  margin: 24px 0 18px 0;
+  border: 1px solid #9BDDFF66;
+">
+  <div class="card-title" style="margin:0;">
+    🌊 Hydrodynamics Projects
+  </div>
+</div>
+
 <style>
-/* Shrink the project cards */
-.hydro-project-box {
-  padding: 12px !important;
-  border-radius: 14px !important;
-  background: #E8F6FF !important;  /* Columbia Blue light */
-  border: 1px solid #9BDDFF55;
-  margin-bottom: 16px;
+/* Image-only project cards (match Core Research Directions style) */
+.hydro-image-card {
+  background: linear-gradient(
+    135deg,
+    rgba(232, 246, 255, 0.92) 0%,
+    rgba(243, 251, 255, 0.92) 100%
+  );
+  border-radius: 16px;
+  padding: 14px;
+  border: 1px solid rgba(155, 221, 255, 0.40);
+  box-shadow: 0 10px 22px rgba(0,85,164,0.10);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  text-align: center;
+  height: 100%;
 }
 
-/* Make project titles smaller & cleaner */
-.hydro-project-title {
-  font-size: 0.95rem !important;
-  margin-bottom: 6px;
-  color: #0055A4;
-  font-weight: 600;
+.hydro-image-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0,85,164,0.14);
 }
 
-/* Compact descriptive text */
-.hydro-project-text {
-  font-size: 0.88rem !important;
-  line-height: 1.45 !important;
-  margin: 0 !important;
-}
-
-/* Compact thumbnails */
-.hydro-project-thumb img {
-  width: 70px !important;
-  border-radius: 8px;
+/* Image styling */
+.hydro-image-card img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 12px;
   box-shadow: 0 6px 14px rgba(0,85,164,0.18);
 }
 
-/* Make layout spacing nice */
+/* Grid spacing consistency */
 .projects .row {
-  row-gap: 16px !important;
+  row-gap: 18px !important;
 }
 </style>
 
 <div class="projects">
 
-{% assign sorted_projects = site.hydrodynamics | sort: "importance" %}
+  {% assign sorted_projects = site.hydrodynamics | sort: "importance" %}
 
-{% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% for project in sorted_projects %}
-        <div class="col">
-          <div class="hydro-project-box">
-            {% include projects_horizontal.liquid %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-{% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       <div class="col">
-        <div class="hydro-project-box">
-          {% include projects.liquid %}
-        </div>
+        <a href="{{ project.url | relative_url }}" style="text-decoration:none;">
+          <div class="hydro-image-card">
+            <img src="{{ project.img | relative_url }}"
+                 alt="{{ project.title }}">
+          </div>
+        </a>
       </div>
     {% endfor %}
   </div>
-{% endif %}
 
 </div>
 
@@ -244,3 +252,57 @@ remain reliable under <strong>nonstationary forcing</strong> and <strong>climate
 - How do <strong>roughness and vegetation</strong> reorganize flow structure and effective diffusivities?  
 - Can we derive <strong>universal scaling laws</strong> that remain stable under climate-driven changes in forcing?  
 - How do we build models that are both <strong>field-validated</strong> and <strong>deployment-ready</strong> for infrastructure resilience?  
+
+</div>
+
+
+## Core Research Directions
+
+<div style="
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  margin: 24px 0 10px 0;
+">
+
+  <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
+    <div class="card-title">
+      🌀 Turbulence → bulk transport laws
+    </div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      First-principles links between turbulence energetics (TKE, stress budgets, spectra) and
+      bulk sediment transport—yielding <strong>universal scaling</strong> across datasets.
+    </p>
+  </div>
+
+  <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
+    <div class="card-title">
+      🧱 Walls, roughness, and dissipation
+    </div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      Mechanistic models of wall friction and roughness transitions that explain classical
+      friction-factor diagrams from turbulence theory.
+    </p>
+  </div>
+
+  <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
+    <div class="card-title">
+      🌿 Vegetation–flow–transport coupling
+    </div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      How structured roughness (canopies, wetlands) reorganizes velocity, stresses, and mixing—linking
+      microscale turbulence to <strong>field-scale contaminant and sediment outcomes</strong>.
+    </p>
+  </div>
+
+  <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
+    <div class="card-title">
+      ⚗️ Settling, suspension, and multiscale turbulence
+    </div>
+    <p style="margin:0; font-size:0.95rem; line-height:1.55;">
+      Theory for particle settling and suspension in turbulence, clarifying when classical
+      assumptions (e.g., still-water settling, Rouse limits) succeed or fail.
+    </p>
+  </div>
+
+</div>
