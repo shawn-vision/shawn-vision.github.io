@@ -164,12 +164,7 @@ nav_order: 4
   gap: 16px;
 ">
   <div style="flex: 1 1 420px; min-width: 280px;">
-    <div class="section-label">Research Output</div>
-    <div class="section-title">Publications</div>
-
-    <p style="margin:10px 0 8px 0; font-size:0.98rem; line-height:1.6;">
-      The following papers summarize ongoing and unpublished work:
-    </p>
+    <div class="section-label">In Preparation</div>
 
     <ul style="
       margin: 0;
