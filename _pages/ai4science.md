@@ -8,9 +8,6 @@ nav_order: 2
 horizontal: false
 ---
 
-<!-- ===============================
-     AI for Science — Page-scoped typography/color unification
-     =============================== -->
 <style>
 .ai4science-page,
 .ai4science-page * {
@@ -63,6 +60,14 @@ horizontal: false
   color: #003B73;
   text-decoration: underline;
 }
+
+/* Nice divider */
+.ai4science-page .soft-hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(155,221,255,0.0), rgba(155,221,255,0.75), rgba(155,221,255,0.0));
+  margin: 26px 0;
+}
 </style>
 
 <div class="ai4science-page">
@@ -74,7 +79,7 @@ horizontal: false
   background: linear-gradient(135deg, #E8F6FF 0%, #C9E8FF 100%);
   border-radius: 18px;
   padding: 36px 32px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
   border: 1px solid #9BDDFF88;
   display: flex;
   flex-wrap: wrap;
@@ -96,13 +101,13 @@ horizontal: false
     </p>
 
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;">
-      <span style="background:#9BDDFF; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#9BDDFF; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#003366;">
         Turbulence & Flows
       </span>
-      <span style="background:#B3E5FC; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#B3E5FC; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#004B87;">
         Heat Transfer & Cooling
       </span>
-      <span style="background:#E0F2FE; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600;">
+      <span style="background:#E0F2FE; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#02416E;">
         Probabilistic ML
       </span>
     </div>
@@ -116,7 +121,8 @@ horizontal: false
   </div>
 
 </div>
----
+
+<hr class="soft-hr" />
 
 ## What does “AI for Science” mean in our group?
 
@@ -130,12 +136,9 @@ We use generative and probabilistic models to:
 
 Rather than replacing equations, we <strong>embed physics inside machine learning</strong>.
 
----
-
+<hr class="soft-hr" />
 
 ## AI for Science Projects
-
-
 
 <style>
 .ai4s-image-card {
@@ -146,20 +149,18 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
   box-shadow:0 10px 22px rgba(0,85,164,0.10);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
   text-align:center;
+  height: 100%;
 }
-
 .ai4s-image-card:hover {
   transform: translateY(-2px);
   box-shadow:0 14px 28px rgba(0,85,164,0.14);
 }
-
 .ai4s-image-card img {
   width:100%;
   max-width:220px;
   border-radius:12px;
   box-shadow:0 6px 14px rgba(0,85,164,0.18);
 }
-
 .projects .row { row-gap:18px !important; }
 </style>
 
@@ -168,7 +169,7 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
     <div class="col">
-      <a href="{{ project.url | relative_url }}">
+      <a href="{{ project.url | relative_url }}" style="text-decoration:none;">
         <div class="ai4s-image-card">
           <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
         </div>
@@ -178,8 +179,7 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
   </div>
 </div>
 
----
-
+<hr class="soft-hr" />
 
 ## Example Questions We Ask
 
@@ -188,8 +188,7 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 - How do we combine <strong>data assimilation, generative models, and physical constraints</strong>?  
 - What is the most efficient way to design <strong>cooling strategies</strong> for large data clusters?  
 
----
-
+<hr class="soft-hr" />
 
 ## Core Research Directions
 
@@ -202,22 +201,22 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 
   <div style="background:#E8F6FF; border-radius:16px; padding:16px;">
     <div class="card-title">🌀 Turbulence & Flow Surrogates</div>
-    <p>Operator learning and generative surrogates for turbulent flows.</p>
+    <p style="margin:0;">Operator learning and generative surrogates for turbulent flows.</p>
   </div>
 
   <div style="background:#F0FAFF; border-radius:16px; padding:16px;">
     <div class="card-title">❄️ Heat Transfer & Cooling</div>
-    <p>ML-enhanced conjugate heat transfer for AI infrastructure.</p>
+    <p style="margin:0;">ML-enhanced conjugate heat transfer for AI infrastructure.</p>
   </div>
 
   <div style="background:#E7F3FF; border-radius:16px; padding:16px;">
     <div class="card-title">⛰️ Sediment & Morphodynamics</div>
-    <p>Physics-informed models of transport capacity and landscape change.</p>
+    <p style="margin:0;">Physics-informed models of transport capacity and landscape change.</p>
   </div>
 
   <div style="background:#F1FAFF; border-radius:16px; padding:16px;">
     <div class="card-title">📊 Probabilistic Extremes</div>
-    <p>Generative modeling of tails, risks, and uncertainty.</p>
+    <p style="margin:0;">Generative modeling of tails, risks, and uncertainty.</p>
   </div>
 
 </div>
