@@ -159,7 +159,7 @@ horizontal: false
         Heat Transfer & Cooling
       </span>
       <span style="background:#E0F2FE; border-radius:999px; padding:6px 14px; font-size:0.82rem; font-weight:600; color:#02416E;">
-        Probabilistic ML
+        Probabilistic Data Assimilation
       </span>
     </div>
   </div>
@@ -235,7 +235,7 @@ horizontal: false
 </div>
 
 <ul style="margin-top: 0; margin-bottom: 0;">
-  <li>How can generative ML <strong>replace or augment ensembles</strong> for turbulent flows and heat transfer?</li>
+  <li>How can generative ML <strong>emulate or augment ensembles</strong> for turbulent flows and heat transfer?</li>
   <li>Can <strong>symbolic ML</strong> recover interpretable transport and scaling laws?</li>
   <li>How do we combine <strong>data assimilation, generative models, and physical constraints</strong>?</li>
   <li>What is the most efficient way to design <strong>cooling strategies</strong> for large data clusters?</li>
