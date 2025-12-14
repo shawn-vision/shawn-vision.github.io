@@ -116,7 +116,7 @@ horizontal: false
   </div>
 
 </div>
-
+---
 
 ## What does “AI for Science” mean in our group?
 
@@ -132,9 +132,7 @@ Rather than replacing equations, we <strong>embed physics inside machine learnin
 
 ---
 
-<!-- ===============================
-     Projects (IMMEDIATELY AFTER)
-     =============================== -->
+
 ## AI for Science Projects
 
 
