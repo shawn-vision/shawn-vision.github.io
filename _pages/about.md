@@ -127,7 +127,7 @@ latest_posts:
     at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
     <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
     <em>Learning the Earth with AI and Physics</em>. Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science
-    from Duke University.  I also completed an M.S. in Mechanical Engineering at Cornell University, following my first U.S. degree in Environmental Engineering at Northwestern University.
+    from Duke University in 2023.  I also completed an M.S. in Mechanical Engineering at Cornell University in 2019, following my first U.S. degree in Environmental Engineering at Northwestern University in 2018.
   </p>
 </div>
 
