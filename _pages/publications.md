@@ -175,7 +175,7 @@ nav_order: 4
       <li style="margin-bottom:8px;">
         <strong> Li, S.</strong>, Zheng, T., Gentine, P.
         “Beyond Normal: Global Patterns of Summer Temperature Non-Gaussianity Revealed by Normalizing Flows.”
-        <em>Science Advances</em>, to be submitted (2025).
+        <em>Science Advances</em>, to be submitted (2026).
       </li>
 
       <li style="margin-bottom:8px;">
@@ -193,7 +193,7 @@ nav_order: 4
       <li style="margin-bottom:8px;">
         <strong> Hou, Z.</strong>, Sun, J., Jin, P., <strong>Li, S.</strong><sup>*</sup>, Zheng, T.
         “Calibrating Geophysical Predictions under Constrained Probabilistic Distributions via Kernelized Stein Discrepancy.”
-        <em>Geophysical Research</em>, submitted (2025).
+        <em> ARC: Geophysical Research</em>, submitted (2025).
       </li>
     </ul>
   </div>
