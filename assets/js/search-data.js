@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-ai-for-science",
-          title: "AI for Science",
-          description: "Generative AI with applications to mechanical and Earth systems",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/ai4science/";
-          },
-        },{id: "nav-hydrodynamics",
+  },{id: "nav-hydrodynamics",
           title: "Hydrodynamics",
           description: "Physical Explanation and Modeling of Wind, Water and Sediment Dynamics",
           section: "Navigation",
           handler: () => {
             window.location.href = "/hydrodynamics/";
+          },
+        },{id: "nav-ai4science",
+          title: "AI4Science",
+          description: "Generative AI with applications to mechanical and Earth systems",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ai4science/";
           },
         },{id: "nav-publications",
           title: "Publications",
