@@ -144,7 +144,7 @@ Classical practice relies on empirical <strong>Nikuradse/Moody diagrams</strong>
 
 ---
 
-### 📄 Representative Publications
+### Representative Publications
 
 <ol style="padding-left: 1.2rem;">
 
@@ -153,7 +153,6 @@ Classical practice relies on empirical <strong>Nikuradse/Moody diagrams</strong>
     <strong>Roughness-induced critical phenomenon analogy for turbulent friction factor explained by a co-spectral budget model.</strong>  
     <em>Physics of Fluids</em>, 33(10).  
     <span style="font-size:0.92rem; color:#475569;">
-      (Add DOI / link if you want it shown here.)
     </span>
   </li>
 
@@ -162,7 +161,7 @@ Classical practice relies on empirical <strong>Nikuradse/Moody diagrams</strong>
     <strong>A unified friction factor formulation: Bridging laminar and turbulent friction factor with critical points analysis.</strong>  
     <em>Physics of Fluids</em>, 36(1).  
     <span style="font-size:0.92rem; color:#475569;">
-      (Add DOI / link if you want it shown here.)
+  
     </span>
   </li>
 

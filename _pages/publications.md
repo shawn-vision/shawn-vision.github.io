@@ -173,25 +173,25 @@ nav_order: 4
       line-height: 1.55;
     ">
       <li style="margin-bottom:8px;">
-        <strong> Li, S.</strong>, Zheng, T., Gentine, P.
-        “Beyond Normal: Global Patterns of Summer Temperature Non-Gaussianity Revealed by Normalizing Flows.”
+        <strong> [1] Li, S.</strong>,  Katul, G., Zheng, T., Gentine, P.
+        “Universality of Daily Variability and Annual Extreme Heat in Global Summer Temperatures”
         <em>Science Advances</em>, to be submitted (2026).
       </li>
 
       <li style="margin-bottom:8px;">
-        <strong> Li, S.</strong>, Katul, G., Zheng, T., Gentine, P.
+        <strong> [2] Li, S.</strong>, Katul, G., Zheng, T., Gentine, P.
         “Shifting Extremes of Heat Extremes: Climate or Land Cover?”
         <em>PNAS</em>, under review (2025).
       </li>
 
       <li style="margin-bottom:0;">
-        <strong> Li, S.</strong>, Pathz, T., Katul, G.
+        <strong> [3] Li, S.</strong>, Pathz, T., Katul, G.
         “Suspended sediment transport in turbulence: From eddy energetics to bulk flow.”
         <em>Physical Review Letters</em>, under review (2nd round, 2025).
       </li>
 
       <li style="margin-bottom:8px;">
-        <strong> Hou, Z.</strong>, Sun, J., Jin, P., <strong>Li, S.</strong><sup>*</sup>, Zheng, T.
+        <strong> [4] Hou, Z.</strong>, Sun, J., Jin, P., <strong>Li, S.</strong><sup>*</sup>, Zheng, T.
         “Calibrating Geophysical Predictions under Constrained Probabilistic Distributions via Kernelized Stein Discrepancy.”
         <em> ARC: Geophysical Research</em>, submitted (2025).
       </li>

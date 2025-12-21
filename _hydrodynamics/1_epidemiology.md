@@ -145,7 +145,7 @@ analogous to “fast transport pathways” in fluid systems: rare, but dispropor
 
 ---
 
-### 📄 Representative Publication
+### Representative Publication
 
 <ol style="padding-left: 1.2rem;">
 

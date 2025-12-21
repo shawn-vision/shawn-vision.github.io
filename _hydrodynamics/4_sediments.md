@@ -180,7 +180,7 @@ Key contributions include:
 
 ---
 
-### 📄 Representative Publications
+### Representative Publications
 
 <ol style="padding-left: 1.2rem;">
 

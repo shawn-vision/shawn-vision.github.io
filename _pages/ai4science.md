@@ -1,10 +1,10 @@
 ---
 layout: page
-title: AI for Science
+title: AI4Science
 permalink: /ai4science/
 description: Generative AI with applications to mechanical and Earth systems
 nav: true
-nav_order: 2
+nav_order: 3
 horizontal: false
 ---
 
