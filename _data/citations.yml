@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2026-01-14'
 papers:
   19evyCkAAAAJ:3fE2CSJIrl8C:
-    citations: 17
+    citations: 18
     title: Contaminant removal efficiency of floating treatment wetlands
     year: '2020'
   19evyCkAAAAJ:4DMP91E08xMC:
-    citations: 9
+    citations: 8
     title: 'Solute transport in laminar channel flows with floating vegetation islands: Dispersion and vegetation absorption'
     year: '2023'
   19evyCkAAAAJ:4JMBOYKVnBMC:
@@ -14,7 +14,7 @@ papers:
     title: "Analogues of \u03A0 theorem via machine learning for hydraulic conveyance laws"
     year: '2025'
   19evyCkAAAAJ:5nxA0vEk-isC:
-    citations: 32
+    citations: 31
     title: Analyzing solute transport in modeled wetland flows under surface wind and bed absorption conditions
     year: '2020'
   19evyCkAAAAJ:7PzlFSSx8tAC:
@@ -30,11 +30,11 @@ papers:
     title: Deep Generative Data Assimilation in Multimodal Setting
     year: '2024'
   19evyCkAAAAJ:IjCSPb-OGe4C:
-    citations: 13
+    citations: 12
     title: Prediction of mean turbulent flow velocity in a permeable-walled pipe
     year: '2019'
   19evyCkAAAAJ:KlAtU1dfN6UC:
-    citations: 233
+    citations: 235
     title: 'Flow dynamics and sediment transport in vegetated rivers: A review'
     year: '2021'
   19evyCkAAAAJ:L8Ckcad2t8MC:
@@ -78,7 +78,7 @@ papers:
     title: The role of geographical spreaders in infectious pattern formation and front propagation speeds
     year: '2022'
   19evyCkAAAAJ:ZeXyd9-uunAC:
-    citations: 34
+    citations: 37
     title: Deep generative data assimilation in multimodal setting
     year: '2024'
   19evyCkAAAAJ:Zph67rFs4hoC:
@@ -102,7 +102,7 @@ papers:
     title: Integrated turbulence and machine learning models explain pier scour in erodible channels
     year: '2025'
   19evyCkAAAAJ:hC7cP41nSMkC:
-    citations: 5
+    citations: 6
     title: Original vegetation condition and precipitation growth rate bifurcate sediment flux trend on the Qinghai-Tibet Plateau
     year: '2025'
   19evyCkAAAAJ:hFOr9nPyWt4C:
@@ -118,11 +118,11 @@ papers:
     title: "Machine\u2010assisted physical closure for coarse suspended sediments in vegetated turbulent channel flows"
     year: '2024'
   19evyCkAAAAJ:roLk4NBRz8UC:
-    citations: 34
+    citations: 33
     title: Solute dispersion in wetland flows with bed absorption
     year: '2019'
   19evyCkAAAAJ:u5HHmVD_uO8C:
-    citations: 15
+    citations: 16
     title: United formula for the friction factor in the turbulent region of pipe flow
     year: '2016'
   19evyCkAAAAJ:zYLM7Y9cAGgC:
