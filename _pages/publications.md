@@ -174,14 +174,12 @@ nav_order: 4
     ">
       <li style="margin-bottom:8px;">
         <strong> [1] Li, S.</strong>,  Katul, G., Zheng, T., Gentine, P.
-        “Universality of Daily Variability and Annual Extreme Heat in Global Summer Temperatures”
-        <em>Science Advances</em>, to be submitted (2026).
+        “Universality of Daily Variability and Annual Extreme Heat in Global Summer Temperatures”, to be submitted (2026).
       </li>
 
       <li style="margin-bottom:8px;">
         <strong> [2] Li, S.</strong>, Katul, G., Zheng, T., Gentine, P.
-        “Shifting Extremes of Heat Extremes: Climate or Land Cover?”
-        <em>PNAS</em>, under review (2025).
+        “Landcover structure explains shift of heat extreme under climate change”, under review (2025).
       </li>
 
       <li style="margin-bottom:0;">
