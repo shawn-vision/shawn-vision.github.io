@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-14'
+  last_updated: '2026-02-13'
 papers:
   19evyCkAAAAJ:3fE2CSJIrl8C:
     citations: 18
@@ -34,7 +34,7 @@ papers:
     title: Prediction of mean turbulent flow velocity in a permeable-walled pipe
     year: '2019'
   19evyCkAAAAJ:KlAtU1dfN6UC:
-    citations: 235
+    citations: 239
     title: 'Flow dynamics and sediment transport in vegetated rivers: A review'
     year: '2021'
   19evyCkAAAAJ:L8Ckcad2t8MC:
@@ -42,7 +42,7 @@ papers:
     title: United friction resistance in open channel flows
     year: '2015'
   19evyCkAAAAJ:LkGwnXOMwfcC:
-    citations: 44
+    citations: 45
     title: Analytical solutions of velocity profile in flow through submerged vegetation with variable frontal width
     year: '2019'
   19evyCkAAAAJ:M3ejUd6NZC8C:
@@ -78,7 +78,7 @@ papers:
     title: The role of geographical spreaders in infectious pattern formation and front propagation speeds
     year: '2022'
   19evyCkAAAAJ:ZeXyd9-uunAC:
-    citations: 37
+    citations: 39
     title: Deep generative data assimilation in multimodal setting
     year: '2024'
   19evyCkAAAAJ:Zph67rFs4hoC:
@@ -94,11 +94,11 @@ papers:
     title: "A co\u2010spectral budget model links turbulent eddies to suspended sediment concentration in channel flows"
     year: '2022'
   19evyCkAAAAJ:d1gkVwhDpl0C:
-    citations: 55
+    citations: 57
     title: New formulation for the effective relative roughness height of open channel flows with submerged vegetation
     year: '2015'
   19evyCkAAAAJ:e5wmG9Sq2KIC:
-    citations: 1
+    citations: 2
     title: Integrated turbulence and machine learning models explain pier scour in erodible channels
     year: '2025'
   19evyCkAAAAJ:hC7cP41nSMkC:
