@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-16'
+  last_updated: '2026-03-25'
 papers:
   19evyCkAAAAJ:3fE2CSJIrl8C:
     citations: 18
@@ -18,7 +18,7 @@ papers:
     title: Analyzing solute transport in modeled wetland flows under surface wind and bed absorption conditions
     year: '2020'
   19evyCkAAAAJ:7PzlFSSx8tAC:
-    citations: 7
+    citations: 8
     title: 'A unified friction factor formulation: Bridging laminar and turbulent friction factor with critical points analysis'
     year: '2024'
   19evyCkAAAAJ:8k81kl-MbHgC:
@@ -34,7 +34,7 @@ papers:
     title: Prediction of mean turbulent flow velocity in a permeable-walled pipe
     year: '2019'
   19evyCkAAAAJ:KlAtU1dfN6UC:
-    citations: 243
+    citations: 245
     title: 'Flow dynamics and sediment transport in vegetated rivers: A review'
     year: '2021'
   19evyCkAAAAJ:L8Ckcad2t8MC:
@@ -62,7 +62,7 @@ papers:
     title: "A turbulence model for velocity distribution in open\u2010channel flows through mangrove trees"
     year: '2025'
   19evyCkAAAAJ:TQgYirikUcIC:
-    citations: 1
+    citations: 2
     title: "Probabilistic data assimilation for ensemble distribution projections with generative machine learning: A Lorenz\u201996 proof\u2010of\u2010concept"
     year: '2025'
   19evyCkAAAAJ:UebtZRa9Y70C:
@@ -78,7 +78,7 @@ papers:
     title: The role of geographical spreaders in infectious pattern formation and front propagation speeds
     year: '2022'
   19evyCkAAAAJ:ZeXyd9-uunAC:
-    citations: 41
+    citations: 44
     title: Deep generative data assimilation in multimodal setting
     year: '2024'
   19evyCkAAAAJ:Zph67rFs4hoC:
@@ -118,7 +118,7 @@ papers:
     title: "Machine\u2010assisted physical closure for coarse suspended sediments in vegetated turbulent channel flows"
     year: '2024'
   19evyCkAAAAJ:roLk4NBRz8UC:
-    citations: 34
+    citations: 35
     title: Solute dispersion in wetland flows with bed absorption
     year: '2019'
   19evyCkAAAAJ:u5HHmVD_uO8C:
