@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: shawn.jpg
+  image: shawn1.jpg
   image_circular: false
   more_info: >
     <p>Data Science Institute, Columbia University</p>
