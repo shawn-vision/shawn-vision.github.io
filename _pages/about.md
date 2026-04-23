@@ -114,8 +114,8 @@ latest_posts:
 
 <ul>
   <li><strong>Turbulence and hydrodynamics</strong></li>
+  <li><strong>Generative machine learning and data science</strong></li>
   <li><strong>Sediment transport and geomorphology</strong></li>
-  <li><strong>Generative machine learning for and data science</strong></li>
   <li><strong>Heat transfer and data-center cooling</strong></li>
 </ul>
 
