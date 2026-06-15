@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-15'
 papers:
   19evyCkAAAAJ:3fE2CSJIrl8C:
     citations: 18
@@ -34,7 +34,7 @@ papers:
     title: Prediction of mean turbulent flow velocity in a permeable-walled pipe
     year: '2019'
   19evyCkAAAAJ:KlAtU1dfN6UC:
-    citations: 265
+    citations: 268
     title: 'Flow dynamics and sediment transport in vegetated rivers: A review'
     year: '2021'
   19evyCkAAAAJ:L8Ckcad2t8MC:
@@ -46,7 +46,7 @@ papers:
     title: Analytical solutions of velocity profile in flow through submerged vegetation with variable frontal width
     year: '2019'
   19evyCkAAAAJ:M3ejUd6NZC8C:
-    citations: 10
+    citations: 11
     title: Incipient sediment motion in vegetated open-channel flows predicted by critical flow velocity
     year: '2022'
   19evyCkAAAAJ:MXK_kJrjxJIC:
@@ -94,7 +94,7 @@ papers:
     title: "A co\u2010spectral budget model links turbulent eddies to suspended sediment concentration in channel flows"
     year: '2022'
   19evyCkAAAAJ:d1gkVwhDpl0C:
-    citations: 59
+    citations: 60
     title: New formulation for the effective relative roughness height of open channel flows with submerged vegetation
     year: '2015'
   19evyCkAAAAJ:e5wmG9Sq2KIC:
@@ -122,7 +122,7 @@ papers:
     title: Solute dispersion in wetland flows with bed absorption
     year: '2019'
   19evyCkAAAAJ:u5HHmVD_uO8C:
-    citations: 17
+    citations: 18
     title: United formula for the friction factor in the turbulent region of pipe flow
     year: '2016'
   19evyCkAAAAJ:zYLM7Y9cAGgC:
