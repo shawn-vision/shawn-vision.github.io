@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-10'
 papers:
   19evyCkAAAAJ:3fE2CSJIrl8C:
     citations: 18
@@ -34,7 +34,7 @@ papers:
     title: Prediction of mean turbulent flow velocity in a permeable-walled pipe
     year: '2019'
   19evyCkAAAAJ:KlAtU1dfN6UC:
-    citations: 275
+    citations: 279
     title: 'Flow dynamics and sediment transport in vegetated rivers: A review'
     year: '2021'
   19evyCkAAAAJ:L8Ckcad2t8MC:
@@ -42,7 +42,7 @@ papers:
     title: United friction resistance in open channel flows
     year: '2015'
   19evyCkAAAAJ:LkGwnXOMwfcC:
-    citations: 46
+    citations: 47
     title: Analytical solutions of velocity profile in flow through submerged vegetation with variable frontal width
     year: '2019'
   19evyCkAAAAJ:M3ejUd6NZC8C:
@@ -55,30 +55,30 @@ papers:
     year: '2020'
   19evyCkAAAAJ:QIV2ME_5wuYC:
     citations: 16
-    title: Reduced sediment settling in turbulent flows due to basset history and virtual mass effects
+    title: Reduced sediment settling in turbulent flows due to Basset history and virtual mass effects
     year: '2023'
   19evyCkAAAAJ:RHpTSmoSYBkC:
     citations: 0
     title: "A turbulence model for velocity distribution in open\u2010channel flows through mangrove trees"
     year: '2025'
   19evyCkAAAAJ:TQgYirikUcIC:
-    citations: 2
-    title: "Probabilistic data assimilation for ensemble distribution projections with generative machine learning: A Lorenz\u201996 proof\u2010of\u2010concept"
+    citations: 3
+    title: "Probabilistic data assimilation for ensemble distribution projections with generative machine learning: a lorenz\u201996 proof\u2010of\u2010concept"
     year: '2025'
   19evyCkAAAAJ:UebtZRa9Y70C:
     citations: 10
     title: Cospectral budget model describes incipient sediment motion in turbulent flows
     year: '2019'
   19evyCkAAAAJ:WF5omc3nYNoC:
-    citations: 27
+    citations: 28
     title: 'Mean Velocity and Shear Stress Distribution in Floating Treatment Wetlands: An Analytical Study'
     year: '2019'
   19evyCkAAAAJ:YOwf2qJgpHMC:
     citations: 5
-    title: The Role of Geographic Spreaders in Infectious Pattern Formation and Front Propagation Speeds
-    year: '2021'
+    title: The role of geographical spreaders in infectious pattern formation and front propagation speeds
+    year: '2022'
   19evyCkAAAAJ:ZeXyd9-uunAC:
-    citations: 49
+    citations: 50
     title: Deep generative data assimilation in multimodal setting
     year: '2024'
   19evyCkAAAAJ:Zph67rFs4hoC:
@@ -98,7 +98,7 @@ papers:
     title: New formulation for the effective relative roughness height of open channel flows with submerged vegetation
     year: '2015'
   19evyCkAAAAJ:e5wmG9Sq2KIC:
-    citations: 4
+    citations: 5
     title: Integrated turbulence and machine learning models explain pier scour in erodible channels
     year: '2025'
   19evyCkAAAAJ:hC7cP41nSMkC:
@@ -118,7 +118,7 @@ papers:
     title: "Machine\u2010assisted physical closure for coarse suspended sediments in vegetated turbulent channel flows"
     year: '2024'
   19evyCkAAAAJ:roLk4NBRz8UC:
-    citations: 36
+    citations: 35
     title: Solute dispersion in wetland flows with bed absorption
     year: '2019'
   19evyCkAAAAJ:u5HHmVD_uO8C:
