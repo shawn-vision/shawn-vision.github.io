@@ -122,13 +122,12 @@ latest_posts:
 <div class="about-card">
   <div class="section-label">Brief Introduction</div>
   <p style="margin:0;">
-I am a Full Professor at <a href="https://swrh.whu.edu.cn/info/1095/115421.htm" target="_blank">Wuhan University</a>, specializing in AI × Hydrology × Fluid Dynamics. Previously, I was a research scientist in the
+I am a (full) professor at <a href="https://swrh.whu.edu.cn/info/1095/115421.htm" target="_blank">Wuhan University</a>, specializing in AI × Hydrology × Fluid Dynamics. Previously, I was a research scientist in the
     <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
     at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
     <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
     <em>Learning the Earth with AI and Physics</em>. Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science
     from Duke University in 2023.  I also completed an M.S. in Mechanical Engineering at Cornell University in 2019, following my first U.S. degree in Environmental Engineering at Northwestern University in 2018.
-    I am an incoming professor starting in September 2026 in Fluid Dynamics and AI.
   </p>
 </div>
 
