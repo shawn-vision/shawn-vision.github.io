@@ -99,13 +99,12 @@ latest_posts:
 
 <div class="about-page">
 
-
-
 <p>
   I develop <strong>physics-grounded, uncertainty-quantified models</strong> that integrate turbulence theory with
-  generative machine learning to predict how Earth’s surface and climate extremes evolve under intensifying human pressures.
-  Turbulence serves as the unifying framework of my research: it governs particle transport, shapes landscape morphodynamics,
-  and modulates boundary-layer dynamics that influence the onset, intensity, and persistence of heat waves.
+  generative machine learning to understand and predict the dynamics of environmental and engineered systems.
+  Turbulence serves as the unifying framework of my research: it governs particle transport, shapes riverine
+  and landscape morphodynamics, regulates heat and mass transfer, and influences atmospheric boundary-layer
+  processes and climate extremes.
 </p>
 
 <p style="margin-bottom: 10px;">
@@ -113,25 +112,22 @@ latest_posts:
 </p>
 
 <ul>
-  <li><strong>Turbulence and hydrodynamics</strong></li>
+  <li><strong>Turbulence and fluid dynamics</strong></li>
   <li><strong>Generative machine learning and data science</strong></li>
-  <li><strong>Sediment transport and geomorphology</strong></li>
-  <li><strong>Heat transfer and data-center cooling</strong></li>
+  <li><strong>Hydrology, sediment transport, and geomorphology</strong></li>
+  <li><strong>Heat and mass transfer and data-center cooling</strong></li>
 </ul>
 
 <div class="about-card">
   <div class="section-label">Brief Introduction</div>
   <p style="margin:0;">
-I am a (full) professor at <a href="https://swrh.whu.edu.cn/info/1095/115421.htm" target="_blank">Wuhan University</a>, specializing in AI × Hydrology × Fluid Dynamics. Previously, I was a research scientist in the
+    I am a (full) professor at <a href="https://swrh.whu.edu.cn/info/1095/115421.htm" target="_blank">Wuhan University</a>, working at the intersection of Artificial Intelligence, Hydrology, and Fluid Dynamics. Previously, I was a Research Scientist at the
     <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
-    at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
-    <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
+    at Columbia University, where I led the <em>Machine Learning for Data Assimilation</em> project within
+    <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center for
     <em>Learning the Earth with AI and Physics</em>. Prior to joining Columbia, I earned a Ph.D. in Fluid Dynamics and an M.S. in Computer Science
-    from Duke University in 2023.  I also completed an M.S. in Mechanical Engineering at Cornell University in 2019, following my first U.S. degree in Environmental Engineering at Northwestern University in 2018.
+    from Duke University in 2023. I also completed an M.S. in Mechanical Engineering at Cornell University in 2019, following my first U.S. degree in Environmental Engineering at Northwestern University in 2018.
   </p>
 </div>
 
 </div>
-
-
- 
