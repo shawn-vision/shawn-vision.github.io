@@ -122,7 +122,8 @@ latest_posts:
 <div class="about-card">
   <div class="section-label">Brief Introduction</div>
   <p style="margin:0;">
-      I am a research scientist in the
+    
+      I am a (full) professor at Wuhan University in Fluid Dynamics and AI <a href="https://swrh.whu.edu.cn/info/1095/115421.htm/" target="_blank">. Previously, I was a research scientist in the
     <a href="https://www.datascience.columbia.edu/" target="_blank">Data Science Institute</a>
     at Columbia University, where I lead the <em>Machine Learning for Data Assimilation</em> project within
     <a href="https://leap.columbia.edu/" target="_blank">LEAP</a> — an NSF Science and Technology Center of
